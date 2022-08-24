@@ -1,9 +1,7 @@
 extends CanvasLayer
 
 signal newGame
-signal image
-signal audio
-signal random
+signal assessment
 
 func show_message(text):
 	$title.text = text
@@ -20,10 +18,7 @@ func _on_assessment_pressed():
 	$assessment.hide()
 	$newGame.hide()
 	$title.hide()
-	$prompt.show()
-	$audio.show()
-	$random.show()
-	$image.show()
+	emit_signal("assessment")
 
 func _on_messageTimer_timeout():
 	$title.hide()
@@ -37,24 +32,4 @@ func show_game_over():
 	$newGame.show()
 	$assessment.show()
 
-func _on_image_pressed():
-	$image.hide()
-	$audio.hide()
-	$random.hide()
-	$prompt.hide()
-	emit_signal("image")
-
-func _on_audio_pressed():
-	$image.hide()
-	$audio.hide()
-	$random.hide()
-	$prompt.hide()
-	emit_signal("audio")
-	
-func _on_random_pressed():
-	$image.hide()
-	$audio.hide()
-	$random.hide()
-	$prompt.hide()
-	emit_signal("random")
 
