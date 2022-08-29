@@ -4,9 +4,14 @@ extends Sprite
 export (Color) var blue = Color("#4682b4") #previously typed character
 export (Color) var green = Color("#639765") #current character to type
 export (Color) var red = Color("#a65455") #upcoming character to type
- 
+
+export (float) var speed = 0.1 # Vid2: float bcse enemy is a sprite. moving position not based on velocity
+
 onready var prompt = $RichTextLabel
 onready var prompt_text = prompt.text
+
+func _physics_process(delta: float) -> void:
+	global_position.y += speed #vid2: CHANGE. global_position.y so moves top down. 
 
 func get_prompt() -> String: 
 	return prompt_text

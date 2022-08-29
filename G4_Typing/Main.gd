@@ -1,12 +1,18 @@
 extends Node2D
 
+var Enemy = preload("res://Enemy.tscn") # preloads Enemy scene
+
 onready var enemy_container = $EnemyContainer # dynamically handle enemies
+onready var spawn_container = $SpawnContainer
+onready var spawn_timer = $SpawnTimer
 
 var active_enemy = null
 var current_letter_index: int = -1 
 
 func _ready() -> void:
-	pass
+	randomize() # built-iin godot method to change random number seed. aka make randomized numbers rly random
+	spawn_timer.start()
+	spawn_enemy() # spawns enemy immediately on game start
 
 func find_new_active_enemy(typed_character: String): #finds new active enemy
 	for enemy in enemy_container.get_children():
@@ -40,4 +46,16 @@ func _unhandled_input(event: InputEvent) -> void:
 						active_enemy = null
 				else: #error message
 					print("Incorrect. The correct word is %s . You typed %s ." % [next_character, key_typed])
+
+
+
+func _on_SpawnTimer_timeout(): # spawns enemy
+	spawn_enemy()
+	
+func spawn_enemy():
+	var enemy_instance = Enemy.instance()
+	var spawns = spawn_container.get_children() # only needs call get_children() once
+	var index = randi() % spawns.size()
+	enemy_instance.global_position = spawns[index].global_position
+	enemy_container.add_child(enemy_instance)
 
