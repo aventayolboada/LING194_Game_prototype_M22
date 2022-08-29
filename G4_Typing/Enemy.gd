@@ -14,7 +14,7 @@ func get_prompt() -> String:
 func set_next_character(next_character_index: int):
 # determines what color each character will be. video 2
 # helper func: get_bbcode_color_tag
-	var blue_text = get_bbcode_color_tag(blue) + prompt_text.substr(0, next_character_index) + get_bbcode_end_color_tag()
+	var blue_text = get_bbcode_color_tag(blue) + prompt_text.substr(0, next_character_index) + get_bbcode_end_color_tag() # index 0 bcse first chara
 	var green_text = get_bbcode_color_tag(green) + prompt_text.substr(next_character_index, 1) + get_bbcode_end_color_tag()
 	var red_text = "" # red text handling includes if statement
 
@@ -27,8 +27,8 @@ func set_next_character(next_character_index: int):
 func set_center_tags(string_to_center: String):
 	return "[center]" + string_to_center + "[/center]"
 
-func get_bbcode_color_tag(color: Color) -> String: # helper funct for set_next_character. param: color. output: string
-	return "[color=#" + color.to_html(false) + "]" # gives us the color string. don't forget #
+func get_bbcode_color_tag(color: Color) -> String: # helper funct for set_next_character. param: color. output: string. 
+	return "[color=#" + color.to_html(false) + "]" # gives us new bbcode string in correct format. don't forget #
 
 func get_bbcode_end_color_tag() -> String:
 	return "[/color]"

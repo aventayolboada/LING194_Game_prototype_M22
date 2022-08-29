@@ -16,7 +16,7 @@ func find_new_active_enemy(typed_character: String): #finds new active enemy
 			print("New Word Challenge: Begins with %s" % next_character)
 			active_enemy = enemy
 			current_letter_index = 1
-			# active_enemy.set_next_character(current_letter_index) # video 2
+			active_enemy.set_next_character(current_letter_index) # video 2
 			return # stop iteration after finding new enemy
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -32,7 +32,7 @@ func _unhandled_input(event: InputEvent) -> void:
 				if key_typed == next_character:
 					print("Success! You typed %s" % key_typed) # correct message
 					current_letter_index += 1
-					# active_enemy.set_next_character(current_letter_index)
+					active_enemy.set_next_character(current_letter_index)
 					if current_letter_index == prompt.length():
 						print("Word challenge defeated! Type: %s" % prompt) # victory message. NO method called prompt.text()
 						current_letter_index = -1
