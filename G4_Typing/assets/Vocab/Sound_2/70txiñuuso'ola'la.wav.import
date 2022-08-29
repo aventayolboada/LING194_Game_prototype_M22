@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/70txiñuuso'ola'la.wav-7c196f42a6fd50d3c43705b1600f8e77.sample"
+
+[deps]
+
+source_file="res://assets/Vocab/Sound_2/70txiñuuso'ola'la.wav"
+dest_files=[ "res://.import/70txiñuuso'ola'la.wav-7c196f42a6fd50d3c43705b1600f8e77.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

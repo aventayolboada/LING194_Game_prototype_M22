@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/79ntoo.wav-f8d1779c68d97cfaee179fd99bfd88b2.sample"
+
+[deps]
+
+source_file="res://assets/Vocab/Sound_2/79ntoo.wav"
+dest_files=[ "res://.import/79ntoo.wav-f8d1779c68d97cfaee179fd99bfd88b2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

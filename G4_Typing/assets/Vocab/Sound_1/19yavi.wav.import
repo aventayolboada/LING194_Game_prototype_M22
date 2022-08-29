@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/19yavi.wav-110b3b529685b33ca9297f088ec8ce87.sample"
+
+[deps]
+
+source_file="res://assets/Vocab/Sound_1/19yavi.wav"
+dest_files=[ "res://.import/19yavi.wav-110b3b529685b33ca9297f088ec8ce87.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

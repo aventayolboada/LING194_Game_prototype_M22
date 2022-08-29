@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/33kuñu.wav-2b829c9b732d53528e8abe971f561096.sample"
+
+[deps]
+
+source_file="res://assets/Vocab/Sound_1/33kuñu.wav"
+dest_files=[ "res://.import/33kuñu.wav-2b829c9b732d53528e8abe971f561096.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

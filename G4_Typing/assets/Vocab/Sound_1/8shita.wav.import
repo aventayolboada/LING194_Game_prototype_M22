@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/8shita.wav-f062150d7a9683406ddb295637f97217.sample"
+
+[deps]
+
+source_file="res://assets/Vocab/Sound_1/8shita.wav"
+dest_files=[ "res://.import/8shita.wav-f062150d7a9683406ddb295637f97217.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

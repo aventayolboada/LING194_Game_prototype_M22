@@ -14,6 +14,11 @@ config/name="mixtec typing demo"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+PromptList="*res://PromptList.gd"
+DataImport="*res://DataImport.gd"
+
 [display]
 
 window/size/width=720

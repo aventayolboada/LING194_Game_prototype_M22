@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/60sapo.wav-d867eb7026d4910efc2e5f5fbf5504ba.sample"
+
+[deps]
+
+source_file="res://assets/Vocab/Sound_2/60sapo.wav"
+dest_files=[ "res://.import/60sapo.wav-d867eb7026d4910efc2e5f5fbf5504ba.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

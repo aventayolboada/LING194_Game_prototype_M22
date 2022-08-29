@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/36yo'o.wav-15052fd7567a31648cac7dac5f16f2b7.sample"
+
+[deps]
+
+source_file="res://assets/Vocab/Sound_1/36yo'o.wav"
+dest_files=[ "res://.import/36yo'o.wav-15052fd7567a31648cac7dac5f16f2b7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

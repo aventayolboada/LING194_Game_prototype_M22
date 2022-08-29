@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/67lonchi.wav-cf068b045edc72f3557ac9e56d04326b.sample"
+
+[deps]
+
+source_file="res://assets/Vocab/Sound_2/67lonchi.wav"
+dest_files=[ "res://.import/67lonchi.wav-cf068b045edc72f3557ac9e56d04326b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
