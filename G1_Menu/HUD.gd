@@ -9,12 +9,14 @@ func show_message(text):
 	$messageTimer.start()
 
 func _on_newGame_pressed():
+	get_tree(). change_scene("res://G4_Typing/Main.tscn")
 	$newGame.hide()
 	$assessment.hide()
 	$title.hide()
 	emit_signal("newGame")
 	
 func _on_assessment_pressed():
+	get_tree(). change_scene("res://G5_Assessment/Typing Segment Score Screen/TypingCompleteScreen.tscn")
 	$assessment.hide()
 	$newGame.hide()
 	$title.hide()
