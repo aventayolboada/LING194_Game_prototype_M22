@@ -1,0 +1,111 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://G5_Assessment/Typing Segment Score Screen/typing_complete_screen.gd" type="Script" id=1]
+[ext_resource path="res://G5_Assessment/Typing Segment Score Screen/window_and_button_font.tres" type="DynamicFont" id=2]
+[ext_resource path="res://G5_Assessment/Typing Segment Score Screen/zh-cn.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+font_data = ExtResource( 3 )
+
+[sub_resource type="Theme" id=2]
+default_font = SubResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 15
+use_filter = true
+font_data = ExtResource( 3 )
+
+[node name="TypingScoreControl" type="Control"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+theme = SubResource( 2 )
+script = ExtResource( 1 )
+
+[node name="WindowScreen" type="WindowDialog" parent="."]
+visible = true
+margin_left = -256.0
+margin_top = -150.0
+margin_right = 256.0
+margin_bottom = 150.0
+custom_fonts/title_font = SubResource( 3 )
+window_title = "Typing Complete"
+resizable = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="WindowScreen"]
+anchor_left = 0.001
+anchor_right = 0.999
+anchor_bottom = 1.0
+margin_left = 0.488
+margin_top = 1.0
+margin_right = 0.511993
+margin_bottom = -62.0
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="WindowText" type="Label" parent="WindowScreen/CenterContainer"]
+margin_left = 131.0
+margin_top = 77.0
+margin_right = 380.0
+margin_bottom = 160.0
+text = "Your score is...
+/"
+align = 1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="ScoreLabel" type="Label" parent="WindowScreen"]
+margin_left = 178.0
+margin_top = 121.0
+margin_right = 243.0
+margin_bottom = 161.0
+text = "100"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="TotalLabel" type="Label" parent="WindowScreen"]
+margin_left = 268.0
+margin_top = 121.0
+margin_right = 339.0
+margin_bottom = 161.0
+text = "100"
+align = 1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AssessmentButton" type="Button" parent="WindowScreen"]
+margin_left = 90.0
+margin_top = 207.0
+margin_right = 244.0
+margin_bottom = 232.0
+custom_fonts/font = ExtResource( 2 )
+text = "Go to Assessment"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="RetryButton" type="Button" parent="WindowScreen"]
+margin_left = 325.0
+margin_top = 207.0
+margin_right = 418.0
+margin_bottom = 232.0
+custom_fonts/font = ExtResource( 2 )
+text = "Retry"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[connection signal="pressed" from="WindowScreen/AssessmentButton" to="." method="_on_AssessmentButton_pressed"]
+[connection signal="pressed" from="WindowScreen/RetryButton" to="." method="_on_RetryButton_pressed"]
