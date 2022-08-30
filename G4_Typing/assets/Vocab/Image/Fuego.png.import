@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Fuego.png-f2c94bc249a81f9918609ce37ed87b9c.stex"
+path="res://.import/Fuego.png-b3989baa5d815dfb9ff5147519b9e639.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Fuego.png"
-dest_files=[ "res://.import/Fuego.png-f2c94bc249a81f9918609ce37ed87b9c.stex" ]
+source_file="res://assets/vocab/Image/Fuego.png"
+dest_files=[ "res://.import/Fuego.png-b3989baa5d815dfb9ff5147519b9e639.stex" ]
 
 [params]
 

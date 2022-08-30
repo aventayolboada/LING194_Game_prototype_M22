@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/52leka.wav-d1920424fb8a6bfc6a0dcc03a3c00fd3.sample"
+path="res://.import/52leka.wav-777a8c50abbcb03c3430f5c925a958f9.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_2/52leka.wav"
-dest_files=[ "res://.import/52leka.wav-d1920424fb8a6bfc6a0dcc03a3c00fd3.sample" ]
+source_file="res://assets/vocab/Sound_2/52leka.wav"
+dest_files=[ "res://.import/52leka.wav-777a8c50abbcb03c3430f5c925a958f9.sample" ]
 
 [params]
 

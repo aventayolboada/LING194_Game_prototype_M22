@@ -2,6 +2,7 @@ extends Node2D
 
 var Enemy = preload("res://Enemy.tscn")
  # preloads Enemy scene
+var WCT = preload("res://WCT.tscn")
 
 onready var enemy_container = $EnemyContainer # dynamically handle enemies
 onready var spawn_container = $SpawnContainer
@@ -41,9 +42,10 @@ func _unhandled_input(event: InputEvent) -> void:
 					current_letter_index += 1
 					active_enemy.set_next_character(current_letter_index)
 					if current_letter_index == prompt.length():
-						print("Word challenge defeated! Type: %s" % prompt) # victory message. NO method called prompt.text()
+						print("Word challenge defeated! Typed: %s" % prompt) # victory message. NO method called prompt.text()
 						current_letter_index = -1
 						active_enemy.queue_free()
+						$WCT.win_message(prompt, true)
 						active_enemy = null
 				else: #error message
 					print("Incorrect. The correct word is %s . You typed %s ." % [next_character, key_typed])

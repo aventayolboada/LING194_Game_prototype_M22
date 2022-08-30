@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Noche.png-0761647a680e8cdadf675d53433393d0.stex"
+path="res://.import/Noche.png-6bd678b05e59d6abd640fd412940fec6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Noche.png"
-dest_files=[ "res://.import/Noche.png-0761647a680e8cdadf675d53433393d0.stex" ]
+source_file="res://assets/vocab/Image/Noche.png"
+dest_files=[ "res://.import/Noche.png-6bd678b05e59d6abd640fd412940fec6.stex" ]
 
 [params]
 

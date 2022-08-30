@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/67lonchi.wav-cf068b045edc72f3557ac9e56d04326b.sample"
+path="res://.import/67lonchi.wav-e9745f318908035fa9705df4dd51394b.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_2/67lonchi.wav"
-dest_files=[ "res://.import/67lonchi.wav-cf068b045edc72f3557ac9e56d04326b.sample" ]
+source_file="res://assets/vocab/Sound_2/67lonchi.wav"
+dest_files=[ "res://.import/67lonchi.wav-e9745f318908035fa9705df4dd51394b.sample" ]
 
 [params]
 

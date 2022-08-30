@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/11txoko.wav-9871eba519e9f482097d26e61e19bf48.sample"
+path="res://.import/11txoko.wav-91f41a6308f1740de96864a11f9f331f.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_1/11txoko.wav"
-dest_files=[ "res://.import/11txoko.wav-9871eba519e9f482097d26e61e19bf48.sample" ]
+source_file="res://assets/vocab/Sound_1/11txoko.wav"
+dest_files=[ "res://.import/11txoko.wav-91f41a6308f1740de96864a11f9f331f.sample" ]
 
 [params]
 

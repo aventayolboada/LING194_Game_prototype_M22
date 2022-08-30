@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/8shita.wav-f062150d7a9683406ddb295637f97217.sample"
+path="res://.import/8shita.wav-1d17923fafb69d2280cd15b452feae70.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_1/8shita.wav"
-dest_files=[ "res://.import/8shita.wav-f062150d7a9683406ddb295637f97217.sample" ]
+source_file="res://assets/vocab/Sound_1/8shita.wav"
+dest_files=[ "res://.import/8shita.wav-1d17923fafb69d2280cd15b452feae70.sample" ]
 
 [params]
 

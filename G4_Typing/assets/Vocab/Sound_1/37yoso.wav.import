@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/37yoso.wav-8069181ee76187008305a402e6bca245.sample"
+path="res://.import/37yoso.wav-6126faa841e566568b6d9380e8185a6a.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_1/37yoso.wav"
-dest_files=[ "res://.import/37yoso.wav-8069181ee76187008305a402e6bca245.sample" ]
+source_file="res://assets/vocab/Sound_1/37yoso.wav"
+dest_files=[ "res://.import/37yoso.wav-6126faa841e566568b6d9380e8185a6a.sample" ]
 
 [params]
 

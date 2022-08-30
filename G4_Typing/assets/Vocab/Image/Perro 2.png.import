@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Perro 2.png-c4fa5a7f08a1e4264d7c2d456749683c.stex"
+path="res://.import/Perro 2.png-77b2d2b7229a0b426f4fde79bf22265c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Perro 2.png"
-dest_files=[ "res://.import/Perro 2.png-c4fa5a7f08a1e4264d7c2d456749683c.stex" ]
+source_file="res://assets/vocab/Image/Perro 2.png"
+dest_files=[ "res://.import/Perro 2.png-77b2d2b7229a0b426f4fde79bf22265c.stex" ]
 
 [params]
 

@@ -11,8 +11,7 @@ onready var prompt = $RichTextLabel
 onready var prompt_text = prompt.text
 
 func _ready() -> void:
-	prompt_text = DataImport.get_prompt()
-#	prompt_text = DataImport.get_prompt()
+	prompt_text = PromptList.get_prompt()
 	prompt.parse_bbcode(set_center_tags(prompt_text))
 
 func _physics_process(delta: float) -> void:

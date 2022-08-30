@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/35txiñuu.wav-6af3cde2e7ecdaaeabb0abbbe8db2af9.sample"
+path="res://.import/35txiñuu.wav-896f2a6c72da9eca08936bf9fbe0765b.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_1/35txiñuu.wav"
-dest_files=[ "res://.import/35txiñuu.wav-6af3cde2e7ecdaaeabb0abbbe8db2af9.sample" ]
+source_file="res://assets/vocab/Sound_1/35txiñuu.wav"
+dest_files=[ "res://.import/35txiñuu.wav-896f2a6c72da9eca08936bf9fbe0765b.sample" ]
 
 [params]
 

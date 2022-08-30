@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/9itun.wav-5c932ad06faedfedd2d16395c33bec5a.sample"
+path="res://.import/9itun.wav-3eea858114dc6f5cced6b675daf0d17e.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_1/9itun.wav"
-dest_files=[ "res://.import/9itun.wav-5c932ad06faedfedd2d16395c33bec5a.sample" ]
+source_file="res://assets/vocab/Sound_1/9itun.wav"
+dest_files=[ "res://.import/9itun.wav-3eea858114dc6f5cced6b675daf0d17e.sample" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Montaña.png-31a4c711313f2c97b023743f45339d1f.stex"
+path="res://.import/Montaña.png-ec91e1e32dd61d87282842d8fc35b840.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Montaña.png"
-dest_files=[ "res://.import/Montaña.png-31a4c711313f2c97b023743f45339d1f.stex" ]
+source_file="res://assets/vocab/Image/Montaña.png"
+dest_files=[ "res://.import/Montaña.png-ec91e1e32dd61d87282842d8fc35b840.stex" ]
 
 [params]
 

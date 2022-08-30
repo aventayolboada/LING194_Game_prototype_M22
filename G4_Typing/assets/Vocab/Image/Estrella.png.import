@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Estrella.png-9a8e503b34ad43ec70ce61f579e44e4d.stex"
+path="res://.import/Estrella.png-795a66dca9ddfb90f233940f9cac4bc1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Estrella.png"
-dest_files=[ "res://.import/Estrella.png-9a8e503b34ad43ec70ce61f579e44e4d.stex" ]
+source_file="res://assets/vocab/Image/Estrella.png"
+dest_files=[ "res://.import/Estrella.png-795a66dca9ddfb90f233940f9cac4bc1.stex" ]
 
 [params]
 

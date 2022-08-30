@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Zopilote.png-78dbf8d5ad6c6378dc1f0ddf7b230e95.stex"
+path="res://.import/Zopilote.png-5867b904cd48d8bbfca9befce5e71f05.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Zopilote.png"
-dest_files=[ "res://.import/Zopilote.png-78dbf8d5ad6c6378dc1f0ddf7b230e95.stex" ]
+source_file="res://assets/vocab/Image/Zopilote.png"
+dest_files=[ "res://.import/Zopilote.png-5867b904cd48d8bbfca9befce5e71f05.stex" ]
 
 [params]
 

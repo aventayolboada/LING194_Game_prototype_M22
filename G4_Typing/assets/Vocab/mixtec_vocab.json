@@ -1,59 +1,59 @@
 [
  {
-   "1" : {
+   "ID": 1,
    "Mixteco": "nùnì",
    "Spanish": "maíz (en grano)",
-   "English": "corn (shelled)",
-   "Image": "Y"}
+   "English": "corn (shelled)",
+   "Image": "Y"
  },
  {
-   "2" : {
+   "ID": 2,
    "Mixteco": "iti",
    "Spanish": "milpa",
-   "English": "corn field ",
-   "Image": "Y"}
+   "English": "corn field",
+   "Image": "Y"
  },
  {
-   "3" : {
+   "ID": 3,
    "Mixteco": "kua_ntxiíd",
    "Spanish": "sol",
    "English": "sun ",
-   "Image": "Y"}
+   "Image": "Y"
  },
  {
-   "4" : {
+   "ID": 4,
    "Mixteco": "yòò",
    "Spanish": "luna",
    "English": "moon ",
-   "Image": "Y"}
+   "Image": "Y"
  },
  {
-   "5" : {
+   "ID": 5,
    "Mixteco": "txìkuìí",
    "Spanish": "agua",
    "English": "water ",
-   "Image": "Y"}
+   "Image": "Y"
  },
  {
-   "6" : {
+   "ID": 6,
    "Mixteco": "ntuchì",
    "Spanish": "frijol",
    "English": "bean(s)",
-   "Image": "Y"}
+   "Image": "Y"
  },
  {
-   "7" : {
+   "ID": 7,
    "Mixteco": "ñu'un",
    "Spanish": "fuego",
    "English": "fire ",
-   "Image": "Y"}
+   "Image": "Y"
  },
  {
-   "8" : {
+   "ID": 8,
    "Mixteco": "shìtà",
    "Spanish": "tortilla",
    "English": "tortilla",
-   "Image": "Y"}
+   "Image": "Y"
  },
  {
    "ID": 9,
@@ -68,5 +68,278 @@
    "Spanish": "mixteco",
    "English": "Mixtec",
    "Image": "N"
+ },
+ {
+   "ID": 11,
+   "Mixteco": "txokó",
+   "Spanish": "hormiga",
+   "English": "ant ",
+   "Image": "Y"
+ },
+ {
+   "ID": 13,
+   "Mixteco": "ntxìvì",
+   "Spanish": "huevo",
+   "English": "egg",
+   "Image": "Y"
+ },
+ {
+   "ID": 14,
+   "Mixteco": "txaká",
+   "Spanish": "pez, pescado",
+   "English": "fish ",
+   "Image": "Y"
+ },
+ {
+   "ID": 18,
+   "Mixteco": "tù'un",
+   "Spanish": "palabra",
+   "English": "word",
+   "Image": "N"
+ },
+ {
+   "ID": 19,
+   "Mixteco": "yavì",
+   "Spanish": "maguey",
+   "English": "century plant ",
+   "Image": "Y"
+ },
+ {
+   "ID": 20,
+   "Mixteco": "xi_kuaa",
+   "Spanish": "noche",
+   "English": "night ",
+   "Image": "Y"
+ },
+ {
+   "ID": 21,
+   "Mixteco": "ya_àt",
+   "Spanish": "ceniza",
+   "English": "ash ",
+   "Image": "N"
+ },
+ {
+   "ID": 22,
+   "Mixteco": "ya'à",
+   "Spanish": "chile",
+   "English": "chili pepper ",
+   "Image": "Y"
+ },
+ {
+   "ID": 23,
+   "Mixteco": "sàvì",
+   "Spanish": "lluvia",
+   "English": "rain ",
+   "Image": "Y"
+ },
+ {
+   "ID": 24,
+   "Mixteco": "nìì",
+   "Spanish": "sal",
+   "English": "salt ",
+   "Image": "Y"
+ },
+ {
+   "ID": 25,
+   "Mixteco": "ve'e",
+   "Spanish": "casa",
+   "English": "house ",
+   "Image": "Y"
+ },
+ {
+   "ID": 26,
+   "Mixteco": "yikìn",
+   "Spanish": "calabaza",
+   "English": "squash ",
+   "Image": "Y"
+ },
+ {
+   "ID": 28,
+   "Mixteco": "yi_ìs",
+   "Spanish": "piedra",
+   "English": "rock ",
+   "Image": "Y"
+ },
+ {
+   "ID": 29,
+   "Mixteco": "ko_ò ",
+   "Spanish": "culebra, serpiente",
+   "English": "snake ",
+   "Image": "Y"
+ },
+ {
+   "ID": 30,
+   "Mixteco": "ñù'mà",
+   "Spanish": "humo",
+   "English": "smoke ",
+   "Image": "Y"
+ },
+ {
+   "ID": 31,
+   "Mixteco": "txìnana",
+   "Spanish": "jitomate",
+   "English": "tomato ",
+   "Image": "Y"
+ },
+ {
+   "ID": 33,
+   "Mixteco": "ku_ñuo",
+   "Spanish": "carne",
+   "English": "meat, flesh ",
+   "Image": "Y"
+ },
+ {
+   "ID": 34,
+   "Mixteco": "yikì",
+   "Spanish": "montaña, monte",
+   "English": "mountain, hill",
+   "Image": "Y"
+ },
+ {
+   "ID": 35,
+   "Mixteco": "txìñùùi",
+   "Spanish": "estrella",
+   "English": "star ",
+   "Image": "Y"
+ },
+ {
+   "ID": 38,
+   "Mixteco": "nùtxí",
+   "Spanish": "arena",
+   "English": "sand ",
+   "Image": "Y"
+ },
+ {
+   "ID": 40,
+   "Mixteco": "ñuu",
+   "Spanish": "pueblo",
+   "English": "village ",
+   "Image": "Y"
+ },
+ {
+   "ID": 45,
+   "Mixteco": "lá'và",
+   "Spanish": "rana",
+   "English": "frog ",
+   "Image": "Y"
+ },
+ {
+   "ID": 47,
+   "Mixteco": "ki_si",
+   "Spanish": "olla",
+   "English": "pot ",
+   "Image": "Y"
+ },
+ {
+   "ID": 50,
+   "Mixteco": "tu_ùng",
+   "Spanish": "carbón",
+   "English": "charcoal ",
+   "Image": "Y"
+ },
+ {
+   "ID": 51,
+   "Mixteco": "xìto",
+   "Spanish": "cama, lecho",
+   "English": "bed ",
+   "Image": "Y"
+ },
+ {
+   "ID": 53,
+   "Mixteco": "txi_ínl",
+   "Spanish": "ratón",
+   "English": "mouse ",
+   "Image": "Y"
+ },
+ {
+   "ID": 54,
+   "Mixteco": "txi_ntóòch",
+   "Spanish": "araña",
+   "English": "spider ",
+   "Image": "Y"
+ },
+ {
+   "ID": 55,
+   "Mixteco": "ki_ìe",
+   "Spanish": "día",
+   "English": "day",
+   "Image": "Y"
+ },
+ {
+   "ID": 57,
+   "Mixteco": "nchishi_",
+   "Spanish": "elote",
+   "English": "roasting ear of corn ",
+   "Image": "Y"
+ },
+ {
+   "ID": 59,
+   "Mixteco": "txi_na",
+   "Spanish": "perro",
+   "English": "dog ",
+   "Image": "Y"
+ },
+ {
+   "ID": 61,
+   "Mixteco": "txi_su'màe",
+   "Spanish": "alacrán",
+   "English": "scorpion ",
+   "Image": "Y"
+ },
+ {
+   "ID": 67,
+   "Mixteco": "lo_nchi",
+   "Spanish": "zopilote",
+   "English": "vulture ",
+   "Image": "Y"
+ },
+ {
+   "ID": 68,
+   "Mixteco": "vìkò",
+   "Spanish": "nube",
+   "English": "cloud ",
+   "Image": "Y"
+ },
+ {
+   "ID": 71,
+   "Mixteco": "yixa_n",
+   "Spanish": "masa",
+   "English": "corn dough ",
+   "Image": "Y"
+ },
+ {
+   "ID": 72,
+   "Mixteco": "n_ùñùdo",
+   "Spanish": "abeja",
+   "English": "bee ",
+   "Image": "Y"
+ },
+ {
+   "ID": 73,
+   "Mixteco": "isi",
+   "Spanish": "venado",
+   "English": "deer ",
+   "Image": "Y"
+ },
+ {
+   "ID": 74,
+   "Mixteco": "txi_ka",
+   "Spanish": "chapulín",
+   "English": "grasshopper ",
+   "Image": "Y"
+ },
+ {
+   "ID": 77,
+   "Mixteco": "yi_txa",
+   "Spanish": "río",
+   "English": "river ",
+   "Image": "Y"
+ },
+ {
+   "ID": 78,
+   "Mixteco": "lánko",
+   "Spanish": "tlacuache",
+   "English": "possum, opossum",
+   "Image": "Y"
  }
 ]
