@@ -3,11 +3,8 @@ extends CanvasLayer
 signal newGame
 signal assessment
 
-func show_message(text):
-	$title.text = text
-	$title.show()
-
 func _on_newGame_pressed():
+	#get_tree(). change_scene("res://G4_Typing/Main.tscn")
 	$Clicksound.play()
 	$newGame.hide()
 	$assessment.hide()
@@ -15,6 +12,7 @@ func _on_newGame_pressed():
 	emit_signal("newGame")
 	
 func _on_assessment_pressed():
+	#get_tree(). change_scene("res://G5_Assessment/Assessment.tscn")
 	$assessment.hide()
 	$newGame.hide()
 	$title.hide()
@@ -23,12 +21,10 @@ func _on_assessment_pressed():
 
 
 func show_game_over():
-	show_message("Finished!")
-	$Gameoversound.play()
-	yield($messageTimer, "timeout")
-	$title.text = "TITLE"
+	$title.text = "FINISH！"
 	$title.show()
-	yield(get_tree().create_timer(1), "timeout")
+	$Gameoversound.play()
+	$title.text = "TITLE"
 	$newGame.show()
 	$assessment.show()
 

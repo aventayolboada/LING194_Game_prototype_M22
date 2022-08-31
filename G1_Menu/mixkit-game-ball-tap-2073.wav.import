@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/mixkit-game-ball-tap-2073.wav-64acdabcc53aff5bb365ab81b17221d7.sample"
+path="res://.import/mixkit-game-ball-tap-2073.wav-7c97c6165a7c0ac5b2a1b521a94e1dea.sample"
 
 [deps]
 
-source_file="res://mixkit-game-ball-tap-2073.wav"
-dest_files=[ "res://.import/mixkit-game-ball-tap-2073.wav-64acdabcc53aff5bb365ab81b17221d7.sample" ]
+source_file="res://G1_Menu/mixkit-game-ball-tap-2073.wav"
+dest_files=[ "res://.import/mixkit-game-ball-tap-2073.wav-7c97c6165a7c0ac5b2a1b521a94e1dea.sample" ]
 
 [params]
 

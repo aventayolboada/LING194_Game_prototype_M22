@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/istockphoto-1205503916-612x612.jpeg-979157f518730885d209bea150063d2c.stex"
+path="res://.import/istockphoto-1205503916-612x612.jpeg-6b5b2638a7d9e0212ec65f592663815e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://istockphoto-1205503916-612x612.jpeg"
-dest_files=[ "res://.import/istockphoto-1205503916-612x612.jpeg-979157f518730885d209bea150063d2c.stex" ]
+source_file="res://G1_Menu/istockphoto-1205503916-612x612.jpeg"
+dest_files=[ "res://.import/istockphoto-1205503916-612x612.jpeg-6b5b2638a7d9e0212ec65f592663815e.stex" ]
 
 [params]
 

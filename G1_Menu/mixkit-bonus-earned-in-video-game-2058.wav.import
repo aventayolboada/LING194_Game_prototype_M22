@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/mixkit-bonus-earned-in-video-game-2058.wav-fe36792d15005915122547c411f44da0.sample"
+path="res://.import/mixkit-bonus-earned-in-video-game-2058.wav-800d9ddedbadeab448348597fb23ea29.sample"
 
 [deps]
 
-source_file="res://mixkit-bonus-earned-in-video-game-2058.wav"
-dest_files=[ "res://.import/mixkit-bonus-earned-in-video-game-2058.wav-fe36792d15005915122547c411f44da0.sample" ]
+source_file="res://G1_Menu/mixkit-bonus-earned-in-video-game-2058.wav"
+dest_files=[ "res://.import/mixkit-bonus-earned-in-video-game-2058.wav-800d9ddedbadeab448348597fb23ea29.sample" ]
 
 [params]
 
