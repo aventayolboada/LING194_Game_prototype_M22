@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pngfind.com-cheese-png-552233.png-6381b67453e149125fd234cba391976d.stex"
+path="res://.import/pngfind.com-cheese-png-552233.png-7b3e5e1478e3588c031814b9aec50008.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G2_Background/pngfind.com-cheese-png-552233.png"
-dest_files=[ "res://.import/pngfind.com-cheese-png-552233.png-6381b67453e149125fd234cba391976d.stex" ]
+source_file="res://G2_Background/ling194 pt4/G2_Background/pngfind.com-cheese-png-552233.png"
+dest_files=[ "res://.import/pngfind.com-cheese-png-552233.png-7b3e5e1478e3588c031814b9aec50008.stex" ]
 
 [params]
 

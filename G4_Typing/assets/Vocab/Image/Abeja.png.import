@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Abeja.png-2cbaead833476894435d95d44c70b571.stex"
+path="res://.import/Abeja.png-35ebdc6ee64b97cd06af5e7b535b1564.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Abeja.png"
-dest_files=[ "res://.import/Abeja.png-2cbaead833476894435d95d44c70b571.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Abeja.png"
+dest_files=[ "res://.import/Abeja.png-35ebdc6ee64b97cd06af5e7b535b1564.stex" ]
 
 [params]
 

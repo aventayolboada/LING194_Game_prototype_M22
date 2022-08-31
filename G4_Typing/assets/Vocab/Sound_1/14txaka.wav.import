@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/14txaka.wav-6a264914f9c432f5043deee1ffb68d89.sample"
+path="res://.import/14txaka.wav-a91fe2aa36746c184217dc0ed8260f9b.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_1/14txaka.wav"
-dest_files=[ "res://.import/14txaka.wav-6a264914f9c432f5043deee1ffb68d89.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_1/14txaka.wav"
+dest_files=[ "res://.import/14txaka.wav-a91fe2aa36746c184217dc0ed8260f9b.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0

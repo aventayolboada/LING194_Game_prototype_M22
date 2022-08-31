@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/71yixan.wav-4c8a0e977b1373dac0b6c25b2e408d55.sample"
+path="res://.import/71yixan.wav-6b1593080d6074e020e68d26acab1a92.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_2/71yixan.wav"
-dest_files=[ "res://.import/71yixan.wav-4c8a0e977b1373dac0b6c25b2e408d55.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/71yixan.wav"
+dest_files=[ "res://.import/71yixan.wav-6b1593080d6074e020e68d26acab1a92.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0

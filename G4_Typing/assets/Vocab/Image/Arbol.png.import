@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Arbol.png-71162befc0571fffed5cb3fa9a685a00.stex"
+path="res://.import/Arbol.png-d5ac599e31e24bdeeb03ba4bbb198930.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Arbol.png"
-dest_files=[ "res://.import/Arbol.png-71162befc0571fffed5cb3fa9a685a00.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Arbol.png"
+dest_files=[ "res://.import/Arbol.png-d5ac599e31e24bdeeb03ba4bbb198930.stex" ]
 
 [params]
 

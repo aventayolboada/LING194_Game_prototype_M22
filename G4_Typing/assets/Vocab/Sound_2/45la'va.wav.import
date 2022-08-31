@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/45la'va.wav-d9b3afb6e4cf579d2d54459e8ce31728.sample"
+path="res://.import/45la'va.wav-a40515813d6d1ede62fa9ffae889f3fe.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_2/45la'va.wav"
-dest_files=[ "res://.import/45la'va.wav-d9b3afb6e4cf579d2d54459e8ce31728.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/45la'va.wav"
+dest_files=[ "res://.import/45la'va.wav-a40515813d6d1ede62fa9ffae889f3fe.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0

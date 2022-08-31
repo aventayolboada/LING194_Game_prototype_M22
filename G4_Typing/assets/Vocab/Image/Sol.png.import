@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sol.png-098a1ef04a47346993699544cee6749c.stex"
+path="res://.import/Sol.png-18c79ce7b2160481ff3daa4afd174e0b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Sol.png"
-dest_files=[ "res://.import/Sol.png-098a1ef04a47346993699544cee6749c.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Sol.png"
+dest_files=[ "res://.import/Sol.png-18c79ce7b2160481ff3daa4afd174e0b.stex" ]
 
 [params]
 

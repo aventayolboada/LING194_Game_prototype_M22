@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Frijol.png-991ddb346db58ca0024465e9c5acccc3.stex"
+path="res://.import/Frijol.png-15416a765a08e4557b65d60f7a4c7dc8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Frijol.png"
-dest_files=[ "res://.import/Frijol.png-991ddb346db58ca0024465e9c5acccc3.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Frijol.png"
+dest_files=[ "res://.import/Frijol.png-15416a765a08e4557b65d60f7a4c7dc8.stex" ]
 
 [params]
 

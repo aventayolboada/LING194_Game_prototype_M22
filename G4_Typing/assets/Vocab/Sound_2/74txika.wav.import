@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/74txika.wav-56671da1e4f0e55bc092bd5744be41d2.sample"
+path="res://.import/74txika.wav-4f19c68e3565a5b932d5d987192a56e7.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_2/74txika.wav"
-dest_files=[ "res://.import/74txika.wav-56671da1e4f0e55bc092bd5744be41d2.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/74txika.wav"
+dest_files=[ "res://.import/74txika.wav-4f19c68e3565a5b932d5d987192a56e7.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0

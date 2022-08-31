@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Luna.png-5e0ef0282f61edc254b9982b8e81648f.stex"
+path="res://.import/Luna.png-32eca6114e170a911c76bf3c287719e6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Luna.png"
-dest_files=[ "res://.import/Luna.png-5e0ef0282f61edc254b9982b8e81648f.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Luna.png"
+dest_files=[ "res://.import/Luna.png-32eca6114e170a911c76bf3c287719e6.stex" ]
 
 [params]
 

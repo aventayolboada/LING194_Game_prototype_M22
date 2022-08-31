@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/68viko.wav-e1b2a4117c7ddf582becda92bce9ca6e.sample"
+path="res://.import/68viko.wav-725795dfabfbd2e21ebb85085dd788dc.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_2/68viko.wav"
-dest_files=[ "res://.import/68viko.wav-e1b2a4117c7ddf582becda92bce9ca6e.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/68viko.wav"
+dest_files=[ "res://.import/68viko.wav-725795dfabfbd2e21ebb85085dd788dc.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0

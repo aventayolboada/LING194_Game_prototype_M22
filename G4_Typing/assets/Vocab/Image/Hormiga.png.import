@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Hormiga.png-467bc23356f5e5efa21769acc25c8d43.stex"
+path="res://.import/Hormiga.png-ecbc05a723b937cd8b1e747c0bd8c2c1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Hormiga.png"
-dest_files=[ "res://.import/Hormiga.png-467bc23356f5e5efa21769acc25c8d43.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Hormiga.png"
+dest_files=[ "res://.import/Hormiga.png-ecbc05a723b937cd8b1e747c0bd8c2c1.stex" ]
 
 [params]
 

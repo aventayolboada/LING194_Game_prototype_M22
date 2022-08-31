@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Untitled presentation.png-a729a6dfbc8471582d81031d42ea3b9b.stex"
+path="res://.import/Untitled presentation.png-1d3d51ad916bc52c36586895190c03ae.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G2_Background/Untitled presentation.png"
-dest_files=[ "res://.import/Untitled presentation.png-a729a6dfbc8471582d81031d42ea3b9b.stex" ]
+source_file="res://G2_Background/LING194 game pt2/G2_Background/Untitled presentation.png"
+dest_files=[ "res://.import/Untitled presentation.png-1d3d51ad916bc52c36586895190c03ae.stex" ]
 
 [params]
 

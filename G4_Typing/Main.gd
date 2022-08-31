@@ -1,8 +1,8 @@
 extends Node2D
 
-var Enemy = preload("res://Enemy.tscn")
+var Enemy = preload("res://G4_Typing/Enemy.tscn")
  # preloads Enemy scene
-var WCT = preload("res://WCT.tscn")
+var WCT = preload("res://G4_Typing/WCT.tscn")
 
 onready var enemy_container = $EnemyContainer # dynamically handle enemies
 onready var spawn_container = $SpawnContainer

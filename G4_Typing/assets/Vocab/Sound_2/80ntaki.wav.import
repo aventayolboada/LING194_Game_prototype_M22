@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/80ntaki.wav-690b3d9ca6e650b4cda6bd9a260840f1.sample"
+path="res://.import/80ntaki.wav-66c609572977f01c89f1588e9aa785b4.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_2/80ntaki.wav"
-dest_files=[ "res://.import/80ntaki.wav-690b3d9ca6e650b4cda6bd9a260840f1.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/80ntaki.wav"
+dest_files=[ "res://.import/80ntaki.wav-66c609572977f01c89f1588e9aa785b4.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0

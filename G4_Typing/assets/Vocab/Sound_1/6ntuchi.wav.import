@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/6ntuchi.wav-eb870b57a92f1ca11941f1c48d542d01.sample"
+path="res://.import/6ntuchi.wav-806a5abb9a3b6e4d6c34297391d2a278.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_1/6ntuchi.wav"
-dest_files=[ "res://.import/6ntuchi.wav-eb870b57a92f1ca11941f1c48d542d01.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_1/6ntuchi.wav"
+dest_files=[ "res://.import/6ntuchi.wav-806a5abb9a3b6e4d6c34297391d2a278.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0

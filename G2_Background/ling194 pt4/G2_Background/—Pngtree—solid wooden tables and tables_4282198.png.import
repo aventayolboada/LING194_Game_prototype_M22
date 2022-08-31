@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/—Pngtree—solid wooden tables and tables_4282198.png-73c99f636b398d987fa4ac9513945116.stex"
+path="res://.import/—Pngtree—solid wooden tables and tables_4282198.png-9c4c7ab8fbb752ea2810a72583eb2e27.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G2_Background/—Pngtree—solid wooden tables and tables_4282198.png"
-dest_files=[ "res://.import/—Pngtree—solid wooden tables and tables_4282198.png-73c99f636b398d987fa4ac9513945116.stex" ]
+source_file="res://G2_Background/ling194 pt4/G2_Background/—Pngtree—solid wooden tables and tables_4282198.png"
+dest_files=[ "res://.import/—Pngtree—solid wooden tables and tables_4282198.png-9c4c7ab8fbb752ea2810a72583eb2e27.stex" ]
 
 [params]
 

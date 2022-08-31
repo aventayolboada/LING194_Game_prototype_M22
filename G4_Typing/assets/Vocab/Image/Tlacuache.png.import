@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Tlacuache.png-8e03539f0cef937b0ed590a73100ca68.stex"
+path="res://.import/Tlacuache.png-0080bcd2a0fb01c878c8e8a4396d423d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Tlacuache.png"
-dest_files=[ "res://.import/Tlacuache.png-8e03539f0cef937b0ed590a73100ca68.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Tlacuache.png"
+dest_files=[ "res://.import/Tlacuache.png-0080bcd2a0fb01c878c8e8a4396d423d.stex" ]
 
 [params]
 

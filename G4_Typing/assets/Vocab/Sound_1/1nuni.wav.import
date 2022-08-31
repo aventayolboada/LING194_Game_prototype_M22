@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/1nuni.wav-649113726ed95e3b419da769465f472c.sample"
+path="res://.import/1nuni.wav-86665ae1a71fcdff83c9d2e19a4a1450.sample"
 
 [deps]
 
-source_file="res://assets/Vocab/Sound_1/1nuni.wav"
-dest_files=[ "res://.import/1nuni.wav-649113726ed95e3b419da769465f472c.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_1/1nuni.wav"
+dest_files=[ "res://.import/1nuni.wav-86665ae1a71fcdff83c9d2e19a4a1450.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0
