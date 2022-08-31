@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Jitomate.png-602e89033ef0e39bfa9daaaf2730c9d0.stex"
+path="res://.import/Jitomate.png-7ab0a7ee1dadde93f4732f0bb3ce1a26.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Jitomate.png"
-dest_files=[ "res://.import/Jitomate.png-602e89033ef0e39bfa9daaaf2730c9d0.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Jitomate.png"
+dest_files=[ "res://.import/Jitomate.png-7ab0a7ee1dadde93f4732f0bb3ce1a26.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/57nchishi.wav-3a72b8536d83e8bf4324c7c01335e3ec.sample"
+path="res://.import/57nchishi.wav-c47448475d0b4add63f63c485efae983.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_2/57nchishi.wav"
-dest_files=[ "res://.import/57nchishi.wav-3a72b8536d83e8bf4324c7c01335e3ec.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/57nchishi.wav"
+dest_files=[ "res://.import/57nchishi.wav-c47448475d0b4add63f63c485efae983.sample" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Piedra.png-08463aceb8e1dec59973b867c464328f.stex"
+path="res://.import/Piedra.png-9a2d98352fc2cfc53ec7ef9aa85915ac.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Piedra.png"
-dest_files=[ "res://.import/Piedra.png-08463aceb8e1dec59973b867c464328f.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Piedra.png"
+dest_files=[ "res://.import/Piedra.png-9a2d98352fc2cfc53ec7ef9aa85915ac.stex" ]
 
 [params]
 

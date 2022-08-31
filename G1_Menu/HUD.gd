@@ -16,7 +16,7 @@ func _on_newGame_pressed():
 	emit_signal("newGame")
 	
 func _on_assessment_pressed():
-	get_tree(). change_scene("res://G5_Assessment/Typing Segment Score Screen/TypingCompleteScreen.tscn")
+	get_tree(). change_scene("res://G5_Assessment/Assessment.tscn")
 	$assessment.hide()
 	$newGame.hide()
 	$title.hide()

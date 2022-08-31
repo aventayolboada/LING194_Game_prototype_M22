@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cats.jpeg-d1694537185515e65b7bd3618ec6c197.stex"
+path="res://.import/cats.jpeg-c24e5fcdca9ed2f4764e60981fe86188.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cats.jpeg"
-dest_files=[ "res://.import/cats.jpeg-d1694537185515e65b7bd3618ec6c197.stex" ]
+source_file="res://G4_Typing/cats.jpeg"
+dest_files=[ "res://.import/cats.jpeg-c24e5fcdca9ed2f4764e60981fe86188.stex" ]
 
 [params]
 

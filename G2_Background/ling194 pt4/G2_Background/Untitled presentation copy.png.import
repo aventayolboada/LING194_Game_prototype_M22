@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Untitled presentation copy.png-6457ff0e2c36db3bc0d4fbef30650b3d.stex"
+path="res://.import/Untitled presentation copy.png-6239f2683c64e8f96794ca424479c79d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G2_Background/Untitled presentation copy.png"
-dest_files=[ "res://.import/Untitled presentation copy.png-6457ff0e2c36db3bc0d4fbef30650b3d.stex" ]
+source_file="res://G2_Background/ling194 pt4/G2_Background/Untitled presentation copy.png"
+dest_files=[ "res://.import/Untitled presentation copy.png-6239f2683c64e8f96794ca424479c79d.stex" ]
 
 [params]
 

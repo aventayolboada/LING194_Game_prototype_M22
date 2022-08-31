@@ -1,6 +1,6 @@
 extends Node2D
 
-var WCT = preload("res://TextOnScreen.tscn")
+var WCT = preload("res://G4_Typing/TextOnScreen.tscn")
 
 export var duration = 2
 

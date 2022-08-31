@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/9itun.wav-3eea858114dc6f5cced6b675daf0d17e.sample"
+path="res://.import/9itun.wav-89ee4853181a0ebdc6143194c0fe1d63.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_1/9itun.wav"
-dest_files=[ "res://.import/9itun.wav-3eea858114dc6f5cced6b675daf0d17e.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_1/9itun.wav"
+dest_files=[ "res://.import/9itun.wav-89ee4853181a0ebdc6143194c0fe1d63.sample" ]
 
 [params]
 

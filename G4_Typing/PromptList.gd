@@ -7,7 +7,7 @@ func _ready():
 
 func load_file(): # opens JSON file. returns nested dictionary
 	var f = File.new()
-	f.open("res://assets/vocab/mixtec_vocab.json", File.READ)
+	f.open("res://G4_Typing/assets/vocab/mixtec_vocab.json", File.READ)
 	var vocab_data_json = JSON.parse(f.get_as_text())
 	f.close()
 	vocab_list = vocab_data_json.result

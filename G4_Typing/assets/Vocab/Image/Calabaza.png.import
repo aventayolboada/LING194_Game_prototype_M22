@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Calabaza.png-5f23f7a1ddc383bea309e701d7f8cb16.stex"
+path="res://.import/Calabaza.png-36fa2477869851f2e0a674b37d782bbe.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Calabaza.png"
-dest_files=[ "res://.import/Calabaza.png-5f23f7a1ddc383bea309e701d7f8cb16.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Calabaza.png"
+dest_files=[ "res://.import/Calabaza.png-36fa2477869851f2e0a674b37d782bbe.stex" ]
 
 [params]
 

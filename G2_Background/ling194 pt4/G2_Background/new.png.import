@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/new.png-4b82f4e99527517bc5ddd8dcd9cde527.stex"
+path="res://.import/new.png-ae78ba48a8b30e920437c21c3b84296f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G2_Background/new.png"
-dest_files=[ "res://.import/new.png-4b82f4e99527517bc5ddd8dcd9cde527.stex" ]
+source_file="res://G2_Background/ling194 pt4/G2_Background/new.png"
+dest_files=[ "res://.import/new.png-ae78ba48a8b30e920437c21c3b84296f.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/71yixan.wav-900bae195d7ea1ba225d09f36d69f596.sample"
+path="res://.import/71yixan.wav-6b1593080d6074e020e68d26acab1a92.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_2/71yixan.wav"
-dest_files=[ "res://.import/71yixan.wav-900bae195d7ea1ba225d09f36d69f596.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/71yixan.wav"
+dest_files=[ "res://.import/71yixan.wav-6b1593080d6074e020e68d26acab1a92.sample" ]
 
 [params]
 

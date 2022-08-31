@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/—Pngtree—black and white tiles_3588907.png-5dfe493cd90350829867653644fbfa4f.stex"
+path="res://.import/—Pngtree—black and white tiles_3588907.png-929e7fb8d66397a1b66fd2cc238b04b2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G2_Background/—Pngtree—black and white tiles_3588907.png"
-dest_files=[ "res://.import/—Pngtree—black and white tiles_3588907.png-5dfe493cd90350829867653644fbfa4f.stex" ]
+source_file="res://G2_Background/ling194 pt4/G2_Background/—Pngtree—black and white tiles_3588907.png"
+dest_files=[ "res://.import/—Pngtree—black and white tiles_3588907.png-929e7fb8d66397a1b66fd2cc238b04b2.stex" ]
 
 [params]
 

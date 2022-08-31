@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/14txaka.wav-60629247bc06a5a092851df5621bc49c.sample"
+path="res://.import/14txaka.wav-a91fe2aa36746c184217dc0ed8260f9b.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_1/14txaka.wav"
-dest_files=[ "res://.import/14txaka.wav-60629247bc06a5a092851df5621bc49c.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_1/14txaka.wav"
+dest_files=[ "res://.import/14txaka.wav-a91fe2aa36746c184217dc0ed8260f9b.sample" ]
 
 [params]
 

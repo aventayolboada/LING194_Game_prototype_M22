@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/77yitxa.wav-78c1cfcdea17784c812657c53ccd6adf.sample"
+path="res://.import/77yitxa.wav-b2da557d0f5de3dd391befd64ea2fdf5.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_2/77yitxa.wav"
-dest_files=[ "res://.import/77yitxa.wav-78c1cfcdea17784c812657c53ccd6adf.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/77yitxa.wav"
+dest_files=[ "res://.import/77yitxa.wav-b2da557d0f5de3dd391befd64ea2fdf5.sample" ]
 
 [params]
 

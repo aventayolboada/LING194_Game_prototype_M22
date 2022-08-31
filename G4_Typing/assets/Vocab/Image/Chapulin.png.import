@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Chapulin.png-bd9bdcbb57994532f7f81488fb9dbd7b.stex"
+path="res://.import/Chapulin.png-2418fdd20a76288aff8585a5f222345d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Chapulin.png"
-dest_files=[ "res://.import/Chapulin.png-bd9bdcbb57994532f7f81488fb9dbd7b.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Chapulin.png"
+dest_files=[ "res://.import/Chapulin.png-2418fdd20a76288aff8585a5f222345d.stex" ]
 
 [params]
 

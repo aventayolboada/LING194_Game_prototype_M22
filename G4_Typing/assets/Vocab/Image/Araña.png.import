@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Araña.png-0d668039fc3cd6bee4408dbf609bd33e.stex"
+path="res://.import/Araña.png-bec95b790ea96a5346a971293b537800.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Araña.png"
-dest_files=[ "res://.import/Araña.png-0d668039fc3cd6bee4408dbf609bd33e.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Araña.png"
+dest_files=[ "res://.import/Araña.png-bec95b790ea96a5346a971293b537800.stex" ]
 
 [params]
 
