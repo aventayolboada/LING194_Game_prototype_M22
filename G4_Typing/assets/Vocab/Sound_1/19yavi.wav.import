@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/19yavi.wav-0058f5db9e9a0da6aa2173c89a37937e.sample"
+path="res://.import/19yavi.wav-110b3b529685b33ca9297f088ec8ce87.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_1/19yavi.wav"
-dest_files=[ "res://.import/19yavi.wav-0058f5db9e9a0da6aa2173c89a37937e.sample" ]
+source_file="res://assets/Vocab/Sound_1/19yavi.wav"
+dest_files=[ "res://.import/19yavi.wav-110b3b529685b33ca9297f088ec8ce87.sample" ]
 
 [params]
 

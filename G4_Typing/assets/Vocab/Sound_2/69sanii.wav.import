@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/69sanii.wav-dd968fac54f8370598ec0588b1b063fc.sample"
+path="res://.import/69sanii.wav-ff524f4c97ffd6203ba41735e36ac2ee.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_2/69sanii.wav"
-dest_files=[ "res://.import/69sanii.wav-dd968fac54f8370598ec0588b1b063fc.sample" ]
+source_file="res://assets/Vocab/Sound_2/69sanii.wav"
+dest_files=[ "res://.import/69sanii.wav-ff524f4c97ffd6203ba41735e36ac2ee.sample" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Venado.png-7d6e271b1928d4fc558099c261b8458a.stex"
+path="res://.import/Venado.png-84396a038ae1f0e67f1fe2306115879f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Venado.png"
-dest_files=[ "res://.import/Venado.png-7d6e271b1928d4fc558099c261b8458a.stex" ]
+source_file="res://assets/Vocab/Image/Venado.png"
+dest_files=[ "res://.import/Venado.png-84396a038ae1f0e67f1fe2306115879f.stex" ]
 
 [params]
 

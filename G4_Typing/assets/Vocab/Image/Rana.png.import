@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Rana.png-8f425f39394fc6a1dd744ae8432e36fc.stex"
+path="res://.import/Rana.png-c7cf52c15d3d7a81b04383dd947b1071.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Rana.png"
-dest_files=[ "res://.import/Rana.png-8f425f39394fc6a1dd744ae8432e36fc.stex" ]
+source_file="res://assets/Vocab/Image/Rana.png"
+dest_files=[ "res://.import/Rana.png-c7cf52c15d3d7a81b04383dd947b1071.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Raton.png-82343ff889320c3c44db4bfaa3565482.stex"
+path="res://.import/Raton.png-6f688117468c7f0e295b2b0d5192b202.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Raton.png"
-dest_files=[ "res://.import/Raton.png-82343ff889320c3c44db4bfaa3565482.stex" ]
+source_file="res://assets/Vocab/Image/Raton.png"
+dest_files=[ "res://.import/Raton.png-6f688117468c7f0e295b2b0d5192b202.stex" ]
 
 [params]
 

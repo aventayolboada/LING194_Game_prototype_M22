@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Lluvia.png-2fd389880899977a48c2f3040c26c515.stex"
+path="res://.import/Lluvia.png-13efb5b6192cfabfb0f8081e02e4a25d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Lluvia.png"
-dest_files=[ "res://.import/Lluvia.png-2fd389880899977a48c2f3040c26c515.stex" ]
+source_file="res://assets/Vocab/Image/Lluvia.png"
+dest_files=[ "res://.import/Lluvia.png-13efb5b6192cfabfb0f8081e02e4a25d.stex" ]
 
 [params]
 

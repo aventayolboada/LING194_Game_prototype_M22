@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Pez.png-d959ed24df5c87b3a9cbf9ed4418f14d.stex"
+path="res://.import/Pez.png-268534c9b4a54dc6e187a93b5e11bdbc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Pez.png"
-dest_files=[ "res://.import/Pez.png-d959ed24df5c87b3a9cbf9ed4418f14d.stex" ]
+source_file="res://assets/Vocab/Image/Pez.png"
+dest_files=[ "res://.import/Pez.png-268534c9b4a54dc6e187a93b5e11bdbc.stex" ]
 
 [params]
 

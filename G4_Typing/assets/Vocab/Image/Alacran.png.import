@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Alacran.png-4974680772f18c3c2d9e488ab2c5c669.stex"
+path="res://.import/Alacran.png-7143a3e5f67cf0afdf07aecda3595cfa.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Alacran.png"
-dest_files=[ "res://.import/Alacran.png-4974680772f18c3c2d9e488ab2c5c669.stex" ]
+source_file="res://assets/Vocab/Image/Alacran.png"
+dest_files=[ "res://.import/Alacran.png-7143a3e5f67cf0afdf07aecda3595cfa.stex" ]
 
 [params]
 

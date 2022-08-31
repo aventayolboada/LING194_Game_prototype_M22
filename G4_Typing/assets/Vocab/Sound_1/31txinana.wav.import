@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/31txinana.wav-8f6a0673d68bd83929dfeebfb14d6f97.sample"
+path="res://.import/31txinana.wav-fac4cb5f878c0f9395c43b4299e9a627.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_1/31txinana.wav"
-dest_files=[ "res://.import/31txinana.wav-8f6a0673d68bd83929dfeebfb14d6f97.sample" ]
+source_file="res://assets/Vocab/Sound_1/31txinana.wav"
+dest_files=[ "res://.import/31txinana.wav-fac4cb5f878c0f9395c43b4299e9a627.sample" ]
 
 [params]
 

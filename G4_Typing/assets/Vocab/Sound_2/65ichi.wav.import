@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/65ichi.wav-c87985fca0bc08a5f0b6dea4dfdcec94.sample"
+path="res://.import/65ichi.wav-d10df67e778be8ae6b935f81b4a2514d.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_2/65ichi.wav"
-dest_files=[ "res://.import/65ichi.wav-c87985fca0bc08a5f0b6dea4dfdcec94.sample" ]
+source_file="res://assets/Vocab/Sound_2/65ichi.wav"
+dest_files=[ "res://.import/65ichi.wav-d10df67e778be8ae6b935f81b4a2514d.sample" ]
 
 [params]
 

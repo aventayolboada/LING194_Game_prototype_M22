@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Huevo.png-38f10895e700e9c68c40c242e195a431.stex"
+path="res://.import/Huevo.png-0dc27f61d52e57c4846b861f5794bd77.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Huevo.png"
-dest_files=[ "res://.import/Huevo.png-38f10895e700e9c68c40c242e195a431.stex" ]
+source_file="res://assets/Vocab/Image/Huevo.png"
+dest_files=[ "res://.import/Huevo.png-0dc27f61d52e57c4846b861f5794bd77.stex" ]
 
 [params]
 

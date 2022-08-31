@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Milpa.png-307337f930f231d0529aa3bc0d0acbb4.stex"
+path="res://.import/Milpa.png-870d54964527c2fc54af3f7298784e8b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Milpa.png"
-dest_files=[ "res://.import/Milpa.png-307337f930f231d0529aa3bc0d0acbb4.stex" ]
+source_file="res://assets/Vocab/Image/Milpa.png"
+dest_files=[ "res://.import/Milpa.png-870d54964527c2fc54af3f7298784e8b.stex" ]
 
 [params]
 

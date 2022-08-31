@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/78lanko.wav-cd963aa29fba1289ec161c29226f3ce8.sample"
+path="res://.import/78lanko.wav-899710907b468c981a14f1135e3bbdc5.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_2/78lanko.wav"
-dest_files=[ "res://.import/78lanko.wav-cd963aa29fba1289ec161c29226f3ce8.sample" ]
+source_file="res://assets/Vocab/Sound_2/78lanko.wav"
+dest_files=[ "res://.import/78lanko.wav-899710907b468c981a14f1135e3bbdc5.sample" ]
 
 [params]
 

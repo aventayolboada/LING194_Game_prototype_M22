@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Culebra.png-bd6400ddef79126f6ea3585774fbe131.stex"
+path="res://.import/Culebra.png-4e7dd8989ba8c7e7ea7d987571cea8a6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Culebra.png"
-dest_files=[ "res://.import/Culebra.png-bd6400ddef79126f6ea3585774fbe131.stex" ]
+source_file="res://assets/Vocab/Image/Culebra.png"
+dest_files=[ "res://.import/Culebra.png-4e7dd8989ba8c7e7ea7d987571cea8a6.stex" ]
 
 [params]
 

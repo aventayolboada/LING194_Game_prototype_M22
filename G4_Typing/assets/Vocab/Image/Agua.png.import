@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Agua.png-da9990ca4c0ca47ebb649cb7545ab263.stex"
+path="res://.import/Agua.png-b053af4cb2c9d4892cddcd82636a4319.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Agua.png"
-dest_files=[ "res://.import/Agua.png-da9990ca4c0ca47ebb649cb7545ab263.stex" ]
+source_file="res://assets/Vocab/Image/Agua.png"
+dest_files=[ "res://.import/Agua.png-b053af4cb2c9d4892cddcd82636a4319.stex" ]
 
 [params]
 

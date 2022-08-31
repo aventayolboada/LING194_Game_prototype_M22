@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/24nii.wav-d81aae9ad28a1bc39fc0f2f7d404bdde.sample"
+path="res://.import/24nii.wav-9256813463f114c10b3938f6d00dbe88.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_1/24nii.wav"
-dest_files=[ "res://.import/24nii.wav-d81aae9ad28a1bc39fc0f2f7d404bdde.sample" ]
+source_file="res://assets/Vocab/Sound_1/24nii.wav"
+dest_files=[ "res://.import/24nii.wav-9256813463f114c10b3938f6d00dbe88.sample" ]
 
 [params]
 

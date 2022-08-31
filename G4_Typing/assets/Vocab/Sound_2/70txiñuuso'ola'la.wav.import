@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/70txiñuuso'ola'la.wav-d2464ce96ef309fe54de85b6741e5ca4.sample"
+path="res://.import/70txiñuuso'ola'la.wav-7c196f42a6fd50d3c43705b1600f8e77.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_2/70txiñuuso'ola'la.wav"
-dest_files=[ "res://.import/70txiñuuso'ola'la.wav-d2464ce96ef309fe54de85b6741e5ca4.sample" ]
+source_file="res://assets/Vocab/Sound_2/70txiñuuso'ola'la.wav"
+dest_files=[ "res://.import/70txiñuuso'ola'la.wav-7c196f42a6fd50d3c43705b1600f8e77.sample" ]
 
 [params]
 

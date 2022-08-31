@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cama.png-c08ef0e39f067a09badb23a16b7f3a93.stex"
+path="res://.import/Cama.png-c67ce4908616cf4c492f1b73a1774373.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Cama.png"
-dest_files=[ "res://.import/Cama.png-c08ef0e39f067a09badb23a16b7f3a93.stex" ]
+source_file="res://assets/Vocab/Image/Cama.png"
+dest_files=[ "res://.import/Cama.png-c67ce4908616cf4c492f1b73a1774373.stex" ]
 
 [params]
 

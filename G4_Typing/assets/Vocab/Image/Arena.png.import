@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Arena.png-c285b6d215ece154a8b94686e6c71cb9.stex"
+path="res://.import/Arena.png-1e758aeb0d0660de3f24ff27f494ee73.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Arena.png"
-dest_files=[ "res://.import/Arena.png-c285b6d215ece154a8b94686e6c71cb9.stex" ]
+source_file="res://assets/Vocab/Image/Arena.png"
+dest_files=[ "res://.import/Arena.png-1e758aeb0d0660de3f24ff27f494ee73.stex" ]
 
 [params]
 

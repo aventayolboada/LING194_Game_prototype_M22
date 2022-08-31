@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Olla.png-697c247d72d23db4b18d26f5769b3a7d.stex"
+path="res://.import/istockphoto-1205503916-612x612.jpeg-979157f518730885d209bea150063d2c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vocab/Image/Olla.png"
-dest_files=[ "res://.import/Olla.png-697c247d72d23db4b18d26f5769b3a7d.stex" ]
+source_file="res://istockphoto-1205503916-612x612.jpeg"
+dest_files=[ "res://.import/istockphoto-1205503916-612x612.jpeg-979157f518730885d209bea150063d2c.stex" ]
 
 [params]
 

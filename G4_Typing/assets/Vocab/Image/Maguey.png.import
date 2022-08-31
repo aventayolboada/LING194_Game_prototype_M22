@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Maguey.png-abb23afc2f977d387be8e911c757b391.stex"
+path="res://.import/Maguey.png-7eb80ce307031f83e281692cafe89f09.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Maguey.png"
-dest_files=[ "res://.import/Maguey.png-abb23afc2f977d387be8e911c757b391.stex" ]
+source_file="res://assets/Vocab/Image/Maguey.png"
+dest_files=[ "res://.import/Maguey.png-7eb80ce307031f83e281692cafe89f09.stex" ]
 
 [params]
 

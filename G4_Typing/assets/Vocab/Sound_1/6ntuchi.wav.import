@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/6ntuchi.wav-ecd9d8dfdc7863d3f8551f091c3966e0.sample"
+path="res://.import/6ntuchi.wav-eb870b57a92f1ca11941f1c48d542d01.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_1/6ntuchi.wav"
-dest_files=[ "res://.import/6ntuchi.wav-ecd9d8dfdc7863d3f8551f091c3966e0.sample" ]
+source_file="res://assets/Vocab/Sound_1/6ntuchi.wav"
+dest_files=[ "res://.import/6ntuchi.wav-eb870b57a92f1ca11941f1c48d542d01.sample" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Maiz.png-efff91f9f604c2328561c737f95a6be0.stex"
+path="res://.import/Maiz.png-b45698f4ed1232cf569b4202b18f6fa0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/vocab/Image/Maiz.png"
-dest_files=[ "res://.import/Maiz.png-efff91f9f604c2328561c737f95a6be0.stex" ]
+source_file="res://assets/Vocab/Image/Maiz.png"
+dest_files=[ "res://.import/Maiz.png-b45698f4ed1232cf569b4202b18f6fa0.stex" ]
 
 [params]
 

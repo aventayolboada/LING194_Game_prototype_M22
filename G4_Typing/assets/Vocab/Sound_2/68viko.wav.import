@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/68viko.wav-313afa1d78d893684a0b26e30999132c.sample"
+path="res://.import/68viko.wav-e1b2a4117c7ddf582becda92bce9ca6e.sample"
 
 [deps]
 
-source_file="res://assets/vocab/Sound_2/68viko.wav"
-dest_files=[ "res://.import/68viko.wav-313afa1d78d893684a0b26e30999132c.sample" ]
+source_file="res://assets/Vocab/Sound_2/68viko.wav"
+dest_files=[ "res://.import/68viko.wav-e1b2a4117c7ddf582becda92bce9ca6e.sample" ]
 
 [params]
 
