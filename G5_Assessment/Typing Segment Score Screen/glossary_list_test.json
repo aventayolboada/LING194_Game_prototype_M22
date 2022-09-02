@@ -1,0 +1,38 @@
+[
+ {
+   "ID": 1,
+   "Mixteco": "nùnì",
+   "Image": "res://G4_Typing/assets/Vocab/Image/Maiz.png",
+   "Audio": "res://G4_Typing/assets/Vocab/Sound_1/1nuni.wav",
+ },
+ {
+   "ID": 2,
+   "Mixteco": "iti",
+   "Image": "res://G4_Typing/assets/Vocab/Image/Milpa.png",
+   "Audio": "res://G4_Typing/assets/Vocab/Sound_1/2iti.wav",
+ },
+ {
+   "ID": 3,
+   "Mixteco": "kua_ntxiíd",
+   "Image": "res://G4_Typing/assets/Vocab/Image/Sol.png",
+   "Audio": "res://G4_Typing/assets/Vocab/Sound_1/3kuantxii.wav",
+ },
+ {
+   "ID": 4,
+   "Mixteco": "yòò",
+   "Image": "res://G4_Typing/assets/Vocab/Image/Luna.png",
+   "Audio": "res://G4_Typing/assets/Vocab/Sound_1/4yoo.wav",
+ },
+ {
+   "ID": 5,
+   "Mixteco": "txìkuìí",
+   "Image": "res://G4_Typing/assets/Vocab/Image/Agua.png",
+   "Audio": "res://G4_Typing/assets/Vocab/Sound_1/5txikuii.wav",
+ },
+ {
+   "ID": 6,
+   "Mixteco": "ntuchì",
+   "Image": "res://G4_Typing/assets/Vocab/Image/Frijol.png",
+   "Audio": "res://G4_Typing/assets/Vocab/Sound_1/6ntuchi.wav",
+ },
+]
