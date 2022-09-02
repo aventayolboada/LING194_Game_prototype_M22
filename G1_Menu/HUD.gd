@@ -1,37 +1,32 @@
 extends CanvasLayer
 
-signal newGame
-signal assessment
+signal game_started
+signal assessment_started
 
 func show_message(text):
-	$title.text = text
-	$title.show()
-	$messageTimer.start()
+	$Title.text = text
+	$Title.show()
 
 func _on_newGame_pressed():
 	get_tree(). change_scene("res://G4_Typing/Main.tscn")
-	$newGame.hide()
-	$assessment.hide()
-	$title.hide()
-	emit_signal("newGame")
+	$ClickSound.play()
+	$NewGameButton.hide()
+	$AssessmentButton.hide()
+	$Title.hide()
+	emit_signal("game_started")
 	
 func _on_assessment_pressed():
 	get_tree(). change_scene("res://G5_Assessment/Assessment.tscn")
-	$assessment.hide()
-	$newGame.hide()
-	$title.hide()
-	emit_signal("assessment")
-
-func _on_messageTimer_timeout():
-	$title.hide()
+	$ClickSound.play()
+	$AssessmentButton.hide()
+	$NewGameButton.hide()
+	$Title.hide()
+	emit_signal("assessment_started")
 
 func show_game_over():
-	show_message("Finished!")
-	yield($messageTimer, "timeout")
-	$title.text = "TITLE"
-	$title.show()
-	yield(get_tree().create_timer(1), "timeout")
-	$newGame.show()
-	$assessment.show()
-
-
+	$Title.text = "FINISH!"
+	$Title.show()
+	$GameOverSound.play()
+	$Title.text = "MIXTYPE"
+	$NewGameButton.show()
+	$AssessmentButton.show()

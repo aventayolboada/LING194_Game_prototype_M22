@@ -9,8 +9,8 @@ extends Control
 	# signal error or similar, see doc. above corresponding func here
 
 signal newGame
-signal assessment
-signal glossary
+signal assessment_started
+signal glossary_opened
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -32,16 +32,22 @@ func _ready():
 func _on_RetryButton_pressed():
 	get_tree(). change_scene("res://G4_Typing/Main.tscn")
 	$WindowScreen.hide()
-	emit_signal("newGame")
+	emit_signal("game_started")
 
 
 # Pressing AssessmentButton hides the window and starts the assessment.
 func _on_AssessmentButton_pressed():
 	get_tree(). change_scene("res://G5_Assessment/Assessment.tscn")
 	$WindowScreen.hide()
-	emit_signal("assessment")
+	emit_signal("assessment_started")
 
 
 func _on_GlossaryButton_pressed():
+	$Glossary.show()
+	emit_signal("glossary_opened")
+
+
+func _on_WindowScreen_modal_closed():
+	get_tree(). change_scene("res://G1_Menu/HUD.tscn")
+	$G1_Menu/HUD.show()
 	$WindowScreen.hide()
-	emit_signal("glossary")
