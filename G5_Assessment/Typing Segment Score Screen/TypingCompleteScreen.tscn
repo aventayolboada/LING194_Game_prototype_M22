@@ -7,7 +7,8 @@
 [ext_resource path="res://G5_Assessment/Typing Segment Score Screen/window_title_font.tres" type="DynamicFont" id=5]
 [ext_resource path="res://G5_Assessment/Typing Segment Score Screen/test_theme.tres" type="Theme" id=6]
 [ext_resource path="res://G5_Assessment/Typing Segment Score Screen/Glossary.gd" type="Script" id=7]
-[ext_resource path="res://G5_Assessment/VocabAtlas.png" type="Texture" id=8]
+[ext_resource path="res://G4_Typing/assets/Vocab/Sound_1/4yoo.wav" type="AudioStream" id=8]
+[ext_resource path="res://G5_Assessment/ResizedImages/BulkResizePhotos.com/Agua.png" type="Texture" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -18,11 +19,6 @@ font_data = ExtResource( 3 )
 
 [sub_resource type="Theme" id=2]
 default_font = SubResource( 1 )
-
-[sub_resource type="AtlasTexture" id=3]
-flags = 4
-atlas = ExtResource( 8 )
-region = Rect2( 0, 0, 140, 100 )
 
 [node name="TypingScoreControl" type="Control"]
 anchor_right = 1.0
@@ -118,6 +114,7 @@ custom_fonts/font = ExtResource( 2 )
 text = "Glossary"
 
 [node name="Glossary" type="WindowDialog" parent="."]
+visible = true
 anchor_left = 0.501
 anchor_top = 0.5
 anchor_right = 0.501
@@ -129,12 +126,30 @@ margin_bottom = 150.0
 custom_fonts/title_font = ExtResource( 5 )
 window_title = "Glossary"
 script = ExtResource( 7 )
+GlossaryOption_path = NodePath("GlossaryOption")
 
-[node name="CenterContainer" type="CenterContainer" parent="Glossary"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_bottom = -139.0
-rect_min_size = Vector2( 80, 80 )
+[node name="TextureRect" type="TextureRect" parent="Glossary"]
+anchor_left = 0.5
+anchor_top = 0.52
+anchor_right = 0.5
+anchor_bottom = 0.52
+margin_left = -70.0
+margin_top = -50.0
+margin_right = 70.0
+margin_bottom = 50.0
+texture = ExtResource( 9 )
+
+[node name="AudioButton" type="Button" parent="Glossary"]
+anchor_left = 0.5
+anchor_top = 0.79
+anchor_right = 0.5
+anchor_bottom = 0.79
+margin_left = -50.0
+margin_top = -16.0
+margin_right = 50.0
+margin_bottom = 16.0
+custom_fonts/font = ExtResource( 2 )
+text = "Play Audio"
 
 [node name="GlossaryOption" type="OptionButton" parent="Glossary"]
 anchor_left = 0.5
@@ -148,31 +163,13 @@ margin_bottom = 15.0
 theme = ExtResource( 6 )
 custom_fonts/font = ExtResource( 4 )
 
-[node name="TextureRect" type="TextureRect" parent="Glossary"]
-anchor_left = 0.5
-anchor_top = 0.52
-anchor_right = 0.5
-anchor_bottom = 0.52
-margin_left = -70.0
-margin_top = -50.0
-margin_right = 70.0
-margin_bottom = 50.0
-texture = SubResource( 3 )
-
-[node name="Button" type="Button" parent="Glossary"]
-anchor_left = 0.5
-anchor_top = 0.79
-anchor_right = 0.5
-anchor_bottom = 0.79
-margin_left = -50.0
-margin_top = -16.0
-margin_right = 50.0
-margin_bottom = 16.0
-custom_fonts/font = ExtResource( 2 )
-text = "Play Audio"
+[node name="VocabAudio" type="AudioStreamPlayer" parent="Glossary"]
+stream = ExtResource( 8 )
+volume_db = 15.0
 
 [connection signal="modal_closed" from="WindowScreen" to="." method="_on_WindowScreen_modal_closed"]
 [connection signal="pressed" from="WindowScreen/AssessmentButton" to="." method="_on_AssessmentButton_pressed"]
 [connection signal="pressed" from="WindowScreen/RetryButton" to="." method="_on_RetryButton_pressed"]
 [connection signal="pressed" from="WindowScreen/GlossaryButton" to="." method="_on_GlossaryButton_pressed"]
+[connection signal="pressed" from="Glossary/AudioButton" to="Glossary" method="_on_AudioButton_pressed"]
 [connection signal="item_selected" from="Glossary/GlossaryOption" to="Glossary" method="_on_GlossaryOption_item_selected"]
