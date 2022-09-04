@@ -8,7 +8,7 @@ extends Control
 	#
 	# signal error or similar, see doc. above corresponding func here
 
-signal newGame
+signal game_started
 signal assessment_started
 signal glossary_opened
 

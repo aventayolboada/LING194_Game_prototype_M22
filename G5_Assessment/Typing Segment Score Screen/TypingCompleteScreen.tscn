@@ -7,8 +7,8 @@
 [ext_resource path="res://G5_Assessment/Typing Segment Score Screen/window_title_font.tres" type="DynamicFont" id=5]
 [ext_resource path="res://G5_Assessment/Typing Segment Score Screen/test_theme.tres" type="Theme" id=6]
 [ext_resource path="res://G5_Assessment/Typing Segment Score Screen/Glossary.gd" type="Script" id=7]
-[ext_resource path="res://G4_Typing/assets/Vocab/Sound_1/4yoo.wav" type="AudioStream" id=8]
-[ext_resource path="res://G5_Assessment/ResizedImages/BulkResizePhotos.com/Agua.png" type="Texture" id=9]
+[ext_resource path="res://G4_Typing/assets/Vocab/Sound_2/72ñuñu.wav" type="AudioStream" id=8]
+[ext_resource path="res://G5_Assessment/Assets/Resized Vocab/72Abeja.png" type="Texture" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -165,7 +165,7 @@ custom_fonts/font = ExtResource( 4 )
 
 [node name="VocabAudio" type="AudioStreamPlayer" parent="Glossary"]
 stream = ExtResource( 8 )
-volume_db = 15.0
+volume_db = 5.0
 
 [connection signal="modal_closed" from="WindowScreen" to="." method="_on_WindowScreen_modal_closed"]
 [connection signal="pressed" from="WindowScreen/AssessmentButton" to="." method="_on_AssessmentButton_pressed"]
