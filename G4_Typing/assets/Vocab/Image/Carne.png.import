@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Carne.png-8fed657a74141a1c7a486f75b320b8ef.stex"
+path="res://.import/Carne.png-6c05eea35bfdcaa8e895caa74113ea53.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Carne.png"
-dest_files=[ "res://.import/Carne.png-8fed657a74141a1c7a486f75b320b8ef.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Carne.png"
+dest_files=[ "res://.import/Carne.png-6c05eea35bfdcaa8e895caa74113ea53.stex" ]
 
 [params]
 
