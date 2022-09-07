@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/34yiki.wav-b3c11fed5314a8c81dfba8b1fa2219dd.sample"
+path="res://.import/34yiki.wav-5c554ed867773afa365410b1ce1beb3d.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Sound_1/34yiki.wav"
-dest_files=[ "res://.import/34yiki.wav-b3c11fed5314a8c81dfba8b1fa2219dd.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_1/34yiki.wav"
+dest_files=[ "res://.import/34yiki.wav-5c554ed867773afa365410b1ce1beb3d.sample" ]
 
 [params]
 
@@ -17,5 +17,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

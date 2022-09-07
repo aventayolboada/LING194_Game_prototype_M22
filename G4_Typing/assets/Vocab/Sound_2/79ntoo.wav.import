@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/79ntoo.wav-ae8445dc342e71c7995cbd12d56a3f3a.sample"
+path="res://.import/79ntoo.wav-f1a5fcb6c0e698e906f8374a2ef92728.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Sound_2/79ntoo.wav"
-dest_files=[ "res://.import/79ntoo.wav-ae8445dc342e71c7995cbd12d56a3f3a.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/79ntoo.wav"
+dest_files=[ "res://.import/79ntoo.wav-f1a5fcb6c0e698e906f8374a2ef92728.sample" ]
 
 [params]
 
@@ -17,5 +17,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/77yitxa.wav-4fcc4b43c9dc9bfebdccb46cdefeeeda.sample"
+path="res://.import/77yitxa.wav-b2da557d0f5de3dd391befd64ea2fdf5.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Sound_2/77yitxa.wav"
-dest_files=[ "res://.import/77yitxa.wav-4fcc4b43c9dc9bfebdccb46cdefeeeda.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/77yitxa.wav"
+dest_files=[ "res://.import/77yitxa.wav-b2da557d0f5de3dd391befd64ea2fdf5.sample" ]
 
 [params]
 
@@ -17,5 +17,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

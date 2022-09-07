@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/53txiin.wav-caa3df9994a462ddac09f45ea1c30178.sample"
+path="res://.import/53txiin.wav-15d45171c3d497f3bd1f6b7f219d4657.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Sound_2/53txiin.wav"
-dest_files=[ "res://.import/53txiin.wav-caa3df9994a462ddac09f45ea1c30178.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/53txiin.wav"
+dest_files=[ "res://.import/53txiin.wav-15d45171c3d497f3bd1f6b7f219d4657.sample" ]
 
 [params]
 
@@ -17,5 +17,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

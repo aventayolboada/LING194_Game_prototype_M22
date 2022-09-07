@@ -21,6 +21,8 @@ var enemies_killed: int = 0
 
 var enemies = 0
 
+signal score(enemies_killed)
+
 func _ready() -> void:
 	randomize() # built-iin godot method to change random number seed. aka make randomized numbers rly random
 	spawn_timer.start()
@@ -74,7 +76,7 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func _on_SpawnTimer_timeout(): # spawns enemy
-	if (enemies>=20) :
+	if (enemies>=25) :
 		game_over()
 		get_tree(). change_scene("res://G5_Assessment/Typing Segment Score Screen/TypingCompleteScreen.tscn")
 	else:

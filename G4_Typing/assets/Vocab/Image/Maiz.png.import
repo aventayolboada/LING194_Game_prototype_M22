@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Maiz.png-87a9229c408784e8450e68c446e64f19.stex"
+path="res://.import/Maiz.png-edae4a5fa49a006686310cd4d6146970.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Image/Maiz.png"
-dest_files=[ "res://.import/Maiz.png-87a9229c408784e8450e68c446e64f19.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Maiz.png"
+dest_files=[ "res://.import/Maiz.png-edae4a5fa49a006686310cd4d6146970.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/69sanii.wav-86b3b04d33ea44dbb47add189160ed20.sample"
+path="res://.import/69sanii.wav-a4e4ee0eacd6d0b680807ff9b50993e3.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Sound_2/69sanii.wav"
-dest_files=[ "res://.import/69sanii.wav-86b3b04d33ea44dbb47add189160ed20.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/69sanii.wav"
+dest_files=[ "res://.import/69sanii.wav-a4e4ee0eacd6d0b680807ff9b50993e3.sample" ]
 
 [params]
 
@@ -17,5 +17,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

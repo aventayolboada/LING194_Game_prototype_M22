@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/65ichi.wav-14a699a41f86b8c4d7cfd296d9165eb6.sample"
+path="res://.import/65ichi.wav-3bbaa6ad45805f324df1ae93c42395ba.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Sound_2/65ichi.wav"
-dest_files=[ "res://.import/65ichi.wav-14a699a41f86b8c4d7cfd296d9165eb6.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/65ichi.wav"
+dest_files=[ "res://.import/65ichi.wav-3bbaa6ad45805f324df1ae93c42395ba.sample" ]
 
 [params]
 
@@ -17,5 +17,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

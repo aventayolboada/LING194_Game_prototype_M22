@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/73isi.wav-b89b31de516a4557a641964ad8e72b2a.sample"
+path="res://.import/73isi.wav-ffed8351f66dcf2d14dcd08593c3815f.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Sound_2/73isi.wav"
-dest_files=[ "res://.import/73isi.wav-b89b31de516a4557a641964ad8e72b2a.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_2/73isi.wav"
+dest_files=[ "res://.import/73isi.wav-ffed8351f66dcf2d14dcd08593c3815f.sample" ]
 
 [params]
 
@@ -17,5 +17,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0
