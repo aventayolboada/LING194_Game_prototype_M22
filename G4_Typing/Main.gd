@@ -94,3 +94,7 @@ func start_game():
 	
 func restart_received(): # connects signals across GameMessage.tcsn
 	start_game()
+
+
+func _on_GameOverTimer_timeout():
+	game_over() # NOT WORKING

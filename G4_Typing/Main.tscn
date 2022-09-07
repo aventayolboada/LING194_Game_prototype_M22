@@ -50,7 +50,13 @@ position = Vector2( 60, -34 )
 position = Vector2( 0, 1.52588e-05 )
 
 [node name="SpawnTimer" type="Timer" parent="."]
+wait_time = 3.0
+
+[node name="GameOverTimer" type="Timer" parent="."]
+pause_mode = 1
+wait_time = 5.0
 
 [node name="GameMessages" parent="." instance=ExtResource( 2 )]
 
 [connection signal="timeout" from="SpawnTimer" to="." method="_on_SpawnTimer_timeout"]
+[connection signal="timeout" from="GameOverTimer" to="." method="_on_GameOverTimer_timeout"]
