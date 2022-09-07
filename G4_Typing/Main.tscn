@@ -50,7 +50,6 @@ position = Vector2( 60, -34 )
 position = Vector2( 0, 1.52588e-05 )
 
 [node name="SpawnTimer" type="Timer" parent="."]
-wait_time = 2.0
 
 [node name="GameMessages" parent="." instance=ExtResource( 2 )]
 

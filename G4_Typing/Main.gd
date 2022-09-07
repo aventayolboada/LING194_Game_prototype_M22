@@ -28,7 +28,7 @@ func _ready() -> void:
 func find_new_active_enemy(typed_character: String): #finds new active enemy
 	for enemy in enemy_container.get_children():
 		var prompt = enemy.get_prompt()
-		if prompt == "over":
+		if prompt == "over": # need change
 			game_over()
 		else:
 			var next_character = prompt.substr(0, 1)
