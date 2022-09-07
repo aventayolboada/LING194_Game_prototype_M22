@@ -7,8 +7,9 @@ onready var enemy_container = $EnemyContainer # dynamically handle enemies
 onready var spawn_container = $SpawnContainer
 onready var spawn_timer = $SpawnTimer
 
-onready var score_value = $CanvasLayer/VBoxContainer/TopRow2/TopRow/EnemiesKilledValue
-onready var game_message = $CanvasLayer/VBoxContainer/BottomRow/HBoxContainer/Message
+onready var score_value = $GameMessages/VBoxContainer/TopRow2/TopRow/EnemiesKilledValue
+onready var game_message = $GameMessages/VBoxContainer/BottomRow/HBoxContainer/Message
+onready var final_score = $GameMessages/GameOverScreen/CenterContainer/VBoxContainer2/ScoreLabel
 # links score (enemies killed) to label display. 
 
 var active_enemy = null
