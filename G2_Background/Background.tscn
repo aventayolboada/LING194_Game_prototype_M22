@@ -1,9 +1,8 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://G2_Background/—Pngtree—solid wooden tables and tables_4282198.png" type="Texture" id=1]
 [ext_resource path="res://G2_Background/pngfind.com-cheese-png-552233.png" type="Texture" id=2]
 [ext_resource path="res://G2_Background/—Pngtree—black and white tiles_3588907.png" type="Texture" id=3]
-[ext_resource path="res://G2_Background/back.gd" type="Script" id=4]
 
 [sub_resource type="TileSet" id=1]
 0/name = "—Pngtree—black and white tiles_3588907.png 0"
@@ -73,11 +72,11 @@ format = 1
 tile_data = PoolIntArray( 65536, 0, 0, 65550, 1, 0 )
 
 [node name="back" type="Button" parent="."]
+visible = false
 margin_left = 1.0
 margin_top = 453.0
 margin_right = 42.0
 margin_bottom = 473.0
 text = "back"
-script = ExtResource( 4 )
 
 [connection signal="pressed" from="back" to="back" method="_on_back_pressed"]

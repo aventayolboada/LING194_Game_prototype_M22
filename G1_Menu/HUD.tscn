@@ -1,14 +1,20 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://G4_Typing/assets/Patua_One_font/patua_dynamicfont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://G1_Menu/HUD.gd" type="Script" id=2]
-[ext_resource path="res://G4_Typing/assets/Patua_One_font/patua_theme.tres" type="Theme" id=3]
 [ext_resource path="res://G4_Typing/assets/Patua_One_font/PatuaOne-Regular.ttf" type="DynamicFontData" id=4]
 [ext_resource path="res://G1_Menu/mixkit-game-ball-tap-2073.wav" type="AudioStream" id=5]
 [ext_resource path="res://G1_Menu/mixkit-bonus-earned-in-video-game-2058.wav" type="AudioStream" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 64
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 20
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
 font_data = ExtResource( 4 )
 
 [node name="MenuHUD" type="CanvasLayer"]
@@ -22,7 +28,6 @@ anchor_bottom = 0.25
 margin_left = -132.0
 margin_right = 133.0
 margin_bottom = 95.0
-theme = ExtResource( 3 )
 custom_fonts/font = SubResource( 1 )
 text = "MIXTYPE"
 
@@ -35,8 +40,7 @@ margin_left = -110.5
 margin_top = -35.0
 margin_right = 110.5
 margin_bottom = 35.0
-theme = ExtResource( 3 )
-custom_fonts/font = ExtResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "New Game"
 
 [node name="AssessmentButton" type="Button" parent="."]
@@ -48,7 +52,7 @@ margin_left = -201.5
 margin_top = -37.36
 margin_right = 201.5
 margin_bottom = 37.44
-custom_fonts/font = ExtResource( 1 )
+custom_fonts/font = SubResource( 3 )
 text = "Start Assessment"
 
 [node name="ClickSound" type="AudioStreamPlayer" parent="."]
