@@ -20,12 +20,7 @@ signal glossary_opened
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$WindowScreen.show()
-	#$ScoreLabel.text = 100
-
-
-# A placeholder for the function that will decrease player score upon an error.
-#func _on_error():
-	#typing_score -=1
+	#$ScoreLabel.text = score_value as int
 
 
 # Pressing RetryButton hides the window and starts the typing game again.
@@ -41,13 +36,12 @@ func _on_AssessmentButton_pressed():
 	$WindowScreen.hide()
 	emit_signal("assessment_started")
 
-
+# Pressing GlossaryButton shows the glossary.
 func _on_GlossaryButton_pressed():
 	$Glossary.show()
 	emit_signal("glossary_opened")
 
-
+# Pressing the window's X returns player to Menu. Not functioning ATM.
 func _on_WindowScreen_modal_closed():
-	get_tree(). change_scene("res://G1_Menu/HUD.tscn")
-	$G1_Menu/HUD.show()
+	get_tree(). change_scene("res://G1_Menu/Menu.tscn")
 	$WindowScreen.hide()
