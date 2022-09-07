@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Agua.png-b849e00cfcb12476bd9f61b1ecb3bf96.stex"
+path="res://.import/cheese background.png-f242d2d703e639bd82b216c26dc606c5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Image/Agua.png"
-dest_files=[ "res://.import/Agua.png-b849e00cfcb12476bd9f61b1ecb3bf96.stex" ]
+source_file="res://G2_Background/cheese background.png"
+dest_files=[ "res://.import/cheese background.png-f242d2d703e639bd82b216c26dc606c5.stex" ]
 
 [params]
 

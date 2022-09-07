@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Tortilla.png-d0a5d3093245a9949a324cad33ff5971.stex"
+path="res://.import/Tortilla.png-8d50ff40960ca6b0b5c864ecf3395392.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Tortilla.png"
-dest_files=[ "res://.import/Tortilla.png-d0a5d3093245a9949a324cad33ff5971.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Tortilla.png"
+dest_files=[ "res://.import/Tortilla.png-8d50ff40960ca6b0b5c864ecf3395392.stex" ]
 
 [params]
 

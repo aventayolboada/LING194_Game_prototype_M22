@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Masa.png-da8fcc326c41fc0daafdf0581a13b688.stex"
+path="res://.import/Masa.png-9714d82548b0f84cfc310798c2a2463c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Masa.png"
-dest_files=[ "res://.import/Masa.png-da8fcc326c41fc0daafdf0581a13b688.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Masa.png"
+dest_files=[ "res://.import/Masa.png-9714d82548b0f84cfc310798c2a2463c.stex" ]
 
 [params]
 

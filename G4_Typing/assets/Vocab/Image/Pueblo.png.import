@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Pueblo.png-d8606f636c5ee76ec358dfe186760e28.stex"
+path="res://.import/Pueblo.png-7b023e6c03dbc41aa9581c0f4ed4735d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Pueblo.png"
-dest_files=[ "res://.import/Pueblo.png-d8606f636c5ee76ec358dfe186760e28.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Pueblo.png"
+dest_files=[ "res://.import/Pueblo.png-7b023e6c03dbc41aa9581c0f4ed4735d.stex" ]
 
 [params]
 

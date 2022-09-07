@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/80ntaki.wav-66c609572977f01c89f1588e9aa785b4.sample"
+path="res://.import/80ntaki.wav-a46f7975c8a7615cf4296cacc51851d7.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Sound_2/80ntaki.wav"
-dest_files=[ "res://.import/80ntaki.wav-66c609572977f01c89f1588e9aa785b4.sample" ]
+source_file="res://G4_Typing/assets/vocab/Sound_2/80ntaki.wav"
+dest_files=[ "res://.import/80ntaki.wav-a46f7975c8a7615cf4296cacc51851d7.sample" ]
 
 [params]
 

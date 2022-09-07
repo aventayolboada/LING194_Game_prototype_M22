@@ -8,8 +8,14 @@ onready var enemy_container = $EnemyContainer # dynamically handle enemies
 onready var spawn_container = $SpawnContainer
 onready var spawn_timer = $SpawnTimer
 
+onready var score_value = $CanvasLayer/VBoxContainer/TopRow2/TopRow/EnemiesKilledValue
+# links score (enemies killed) to label display. 
+
 var active_enemy = null
 var current_letter_index: int = -1 
+
+# var difficulty. not using bcse we dont have lvls. 
+var enemies_killed: int = 0
 
 func _ready() -> void:
 	randomize() # built-iin godot method to change random number seed. aka make randomized numbers rly random
@@ -45,8 +51,10 @@ func _unhandled_input(event: InputEvent) -> void:
 						print("Word challenge defeated! Typed: %s" % prompt) # victory message. NO method called prompt.text()
 						current_letter_index = -1
 						active_enemy.queue_free()
-						$WCT.win_message(prompt, true)
+#						$WCT.win_message(prompt, true)
 						active_enemy = null
+						enemies_killed += 1
+						score_value.text = str(enemies_killed) 
 				else: #error message
 					print("Incorrect. The correct word is %s . You typed %s ." % [next_character, key_typed])
 

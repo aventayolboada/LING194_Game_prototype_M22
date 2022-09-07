@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Humo.png-2236c3c17003597635ac6135fdaafaa9.stex"
+path="res://.import/Humo.png-76b387045e568669896533df6edd4c54.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Humo.png"
-dest_files=[ "res://.import/Humo.png-2236c3c17003597635ac6135fdaafaa9.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Humo.png"
+dest_files=[ "res://.import/Humo.png-76b387045e568669896533df6edd4c54.stex" ]
 
 [params]
 
