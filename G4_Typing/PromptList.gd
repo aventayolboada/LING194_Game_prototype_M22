@@ -19,5 +19,5 @@ func get_prompt():
 		var word = vocab_list[word_index]["Mixteco"]
 		return word
 		vocab_list.remove(word_index) #make sure player sees every word
-	return # game over condition?
+	return "over" # game over condition?
 
