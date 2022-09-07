@@ -54,7 +54,7 @@ wait_time = 3.0
 
 [node name="GameOverTimer" type="Timer" parent="."]
 pause_mode = 1
-wait_time = 5.0
+wait_time = 60.0
 
 [node name="GameMessages" parent="." instance=ExtResource( 2 )]
 

@@ -19,11 +19,15 @@ var current_letter_index: int = -1
 # var difficulty. not using bcse we dont have lvls. 
 var enemies_killed: int = 0
 
+var enemies = 0
+
 func _ready() -> void:
 	randomize() # built-iin godot method to change random number seed. aka make randomized numbers rly random
 	spawn_timer.start()
 	spawn_enemy()
+	enemies = 1
 	$GameMessages.connect("restart_pressed", self, "restart_received")
+	
 	
 func find_new_active_enemy(typed_character: String): #finds new active enemy
 	for enemy in enemy_container.get_children():
@@ -50,7 +54,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			else:
 				var prompt = active_enemy.get_prompt()
 				var next_character = prompt.substr(current_letter_index, 1)
-				if key_typed == next_character:
+				if typed_event.unicode == ord(next_character):
 					var message = "Success! Typed %s" % key_typed
 					game_message.text = message # correct message
 					current_letter_index += 1
@@ -70,7 +74,12 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func _on_SpawnTimer_timeout(): # spawns enemy
-	spawn_enemy()
+	if (enemies>=20) :
+		game_over()
+		get_tree(). change_scene("res://G5_Assessment/Typing Segment Score Screen/TypingCompleteScreen.tscn")
+	else:
+		spawn_enemy()
+		enemies = enemies + 1
 	
 func spawn_enemy():
 	var enemy_instance = Enemy.instance()
@@ -85,12 +94,15 @@ func game_over(): #clear out existing enemies, reset connections, etc
 	active_enemy = null
 	current_letter_index = -1
 	
+	
 func start_game():
 	game_over_screen.hide()
 	score_value = 0
 	randomize() # built-iin godot method to change random number seed. aka make randomized numbers rly random
 	spawn_timer.start()
 	spawn_enemy() # spawns enemy immediately on game start
+	enemies = 1
+
 	
 func restart_received(): # connects signals across GameMessage.tcsn
 	start_game()
@@ -98,3 +110,4 @@ func restart_received(): # connects signals across GameMessage.tcsn
 
 func _on_GameOverTimer_timeout():
 	game_over() # NOT WORKING
+	
