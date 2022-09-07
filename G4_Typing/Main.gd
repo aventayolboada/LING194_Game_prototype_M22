@@ -2,13 +2,13 @@ extends Node2D
 
 var Enemy = preload("res://G4_Typing/Enemy.tscn")
  # preloads Enemy scene
-var WCT = preload("res://G4_Typing/WCT.tscn")
 
 onready var enemy_container = $EnemyContainer # dynamically handle enemies
 onready var spawn_container = $SpawnContainer
 onready var spawn_timer = $SpawnTimer
 
 onready var score_value = $CanvasLayer/VBoxContainer/TopRow2/TopRow/EnemiesKilledValue
+onready var game_message = $CanvasLayer/VBoxContainer/BottomRow/HBoxContainer/Message
 # links score (enemies killed) to label display. 
 
 var active_enemy = null
@@ -27,7 +27,8 @@ func find_new_active_enemy(typed_character: String): #finds new active enemy
 		var prompt = enemy.get_prompt()
 		var next_character = prompt.substr(0, 1)
 		if next_character == typed_character:
-			print("New Word Challenge: Begins with %s" % next_character)
+			var message = ("New Word Challenge: Begins with %s" % next_character)
+			game_message.text = message
 			active_enemy = enemy
 			current_letter_index = 1
 			active_enemy.set_next_character(current_letter_index) # video 2
@@ -44,19 +45,21 @@ func _unhandled_input(event: InputEvent) -> void:
 				var prompt = active_enemy.get_prompt()
 				var next_character = prompt.substr(current_letter_index, 1)
 				if key_typed == next_character:
-					print("Success! You typed %s" % key_typed) # correct message
+					var message = "Success! Typed %s" % key_typed
+					game_message.text = message # correct message
 					current_letter_index += 1
 					active_enemy.set_next_character(current_letter_index)
 					if current_letter_index == prompt.length():
-						print("Word challenge defeated! Typed: %s" % prompt) # victory message. NO method called prompt.text()
+						message = "Word challenge defeated! Typed: %s" % prompt # victory message. NO method called prompt.text()
+						game_message.text = message
 						current_letter_index = -1
 						active_enemy.queue_free()
-#						$WCT.win_message(prompt, true)
 						active_enemy = null
 						enemies_killed += 1
 						score_value.text = str(enemies_killed) 
 				else: #error message
-					print("Incorrect. The correct word is %s . You typed %s ." % [next_character, key_typed])
+					var message = "Incorrect. Correct: %s . Typed: %s ." % [next_character, key_typed]
+					game_message.text = str(message)
 
 
 
