@@ -16,4 +16,5 @@ func load_file(): # opens JSON file. returns nested dictionary
 func get_prompt() -> String:
 	var word_index = randi() % vocab_list.size()
 	var word = vocab_list[word_index]["Mixteco"]
+#	vocab_list.remove(word_index)
 	return word

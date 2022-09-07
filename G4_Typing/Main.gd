@@ -72,4 +72,9 @@ func spawn_enemy():
 	var index = randi() % spawns.size()
 	enemy_instance.global_position = spawns[index].global_position
 	enemy_container.add_child(enemy_instance)
-
+	
+func game_over(): #clear out existing enemies, reset connections, etc
+	start_game()
+	
+func start_game():
+	pass
