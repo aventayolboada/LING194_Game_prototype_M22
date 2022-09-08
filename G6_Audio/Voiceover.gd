@@ -1,4 +1,4 @@
-extends Popup
+extends PopupDialog
 
 var dict = {
   "nùnì": res://G6_Audio/SoundClipsIDWords/1nuni.wav,
@@ -70,11 +70,14 @@ var dict = {
   "ntoo": res://G6_Audio/SoundClipsIDWords/79ntoo.wav,
   "ntaki": res://G6_Audio/SoundClipsIDWords/80ntaki.wav
   }
-
-
-
-
-
   
 func play_voiceover(word):
+  $AudioStreamPlayer.stream.loop = false
+  $AudioStreamPlayer.play(dict[word])
   
+func _input(event, word):
+  if event is InputEventMouseButton and word.pressed:
+    if event.button_index == BUTTON_RIGHT and event.pressed:
+        play_voiceover(word)
+        
+
