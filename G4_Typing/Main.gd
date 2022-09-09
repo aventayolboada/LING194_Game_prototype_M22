@@ -30,11 +30,17 @@ func _ready() -> void:
 	enemies = 1
 	$GameMessages.connect("restart_pressed", self, "restart_received")
 
-func _process(delta):
-	for enemy in enemy_container.get_children():
-		var pos = enemy.get_global_position()
-		if pos[1] > 435:
-			enemy.queue_free()
+#func _process(delta): # deletes enemy instance after certain time. NOT WORKING. do not uncomment for now. 
+#	for enemy in enemy_container.get_children():
+#		active_enemy = enemy
+#		var pos = enemy.get_global_position()
+#		if pos[1] > 435:
+#			enemy.queue_free()
+#			active_enemy = null
+#			var event = InputEvent
+#			if event is InputEventKey and event.is_pressed() and not event.is_echo():
+#				_unhandled_input(event)
+			# need to find new enemy
 	
 func find_new_active_enemy(typed_character): #finds new active enemy
 	for enemy in enemy_container.get_children():
