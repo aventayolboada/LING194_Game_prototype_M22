@@ -50,7 +50,7 @@
 1/shapes = [  ]
 1/z_index = 0
 
-[node name="Node2D" type="Node2D"]
+[node name="BackgroundContainer" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_right = 715.0

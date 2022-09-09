@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/esm_8_bit_game_over_1_arcade_80s_simple_alert_notification_game.mp3-77b72cd39e5f532f4e4187e7415e0ed4.mp3str"
+
+[deps]
+
+source_file="res://G6_Audio/esm_8_bit_game_over_1_arcade_80s_simple_alert_notification_game.mp3"
+dest_files=[ "res://.import/esm_8_bit_game_over_1_arcade_80s_simple_alert_notification_game.mp3-77b72cd39e5f532f4e4187e7415e0ed4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

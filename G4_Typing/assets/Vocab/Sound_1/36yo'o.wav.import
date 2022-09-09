@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/36yo'o.wav-acbaa0c2afd20251c5df0dec3b5f945b.sample"
+path="res://.import/36yo'o.wav-dc442e7c0abf4747560a2208c4dab747.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Sound_1/36yo'o.wav"
-dest_files=[ "res://.import/36yo'o.wav-acbaa0c2afd20251c5df0dec3b5f945b.sample" ]
+source_file="res://G4_Typing/assets/vocab/Sound_1/36yo'o.wav"
+dest_files=[ "res://.import/36yo'o.wav-dc442e7c0abf4747560a2208c4dab747.sample" ]
 
 [params]
 
