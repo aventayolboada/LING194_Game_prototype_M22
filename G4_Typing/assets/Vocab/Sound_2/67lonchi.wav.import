@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/67lonchi.wav-24e12795f9ebaee3fa5e4da7772267fb.sample"
+path="res://.import/67lonchi.wav-5cd4f653d696c29b1404d49beb065608.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Sound_2/67lonchi.wav"
-dest_files=[ "res://.import/67lonchi.wav-24e12795f9ebaee3fa5e4da7772267fb.sample" ]
+source_file="res://G4_Typing/assets/vocab/Sound_2/67lonchi.wav"
+dest_files=[ "res://.import/67lonchi.wav-5cd4f653d696c29b1404d49beb065608.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0

@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/62ntxivi.wav-acc167286ae9da96a75490aa7e77ff58.sample"
+path="res://.import/62ntxivi.wav-504f099ddb35098c170f09c12374fa4d.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Sound_2/62ntxivi.wav"
-dest_files=[ "res://.import/62ntxivi.wav-acc167286ae9da96a75490aa7e77ff58.sample" ]
+source_file="res://G4_Typing/assets/vocab/Sound_2/62ntxivi.wav"
+dest_files=[ "res://.import/62ntxivi.wav-504f099ddb35098c170f09c12374fa4d.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Olla.png-2bf311bd7daa7d3152e9eca34ae300ca.stex"
+path="res://.import/Olla.png-9b2fb0edbb9801868c8747b3e0695cbd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Olla.png"
-dest_files=[ "res://.import/Olla.png-2bf311bd7daa7d3152e9eca34ae300ca.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Olla.png"
+dest_files=[ "res://.import/Olla.png-9b2fb0edbb9801868c8747b3e0695cbd.stex" ]
 
 [params]
 

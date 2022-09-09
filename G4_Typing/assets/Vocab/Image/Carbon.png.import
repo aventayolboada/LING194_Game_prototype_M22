@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Carbon.png-299d4cf16204670a51b0c91bc7a47e80.stex"
+path="res://.import/Carbon.png-584e0a19b33d101c312016eb7550fa93.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Carbon.png"
-dest_files=[ "res://.import/Carbon.png-299d4cf16204670a51b0c91bc7a47e80.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Carbon.png"
+dest_files=[ "res://.import/Carbon.png-584e0a19b33d101c312016eb7550fa93.stex" ]
 
 [params]
 

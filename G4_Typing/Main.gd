@@ -29,7 +29,12 @@ func _ready() -> void:
 	spawn_enemy()
 	enemies = 1
 	$GameMessages.connect("restart_pressed", self, "restart_received")
-	
+
+func _process(delta):
+	for enemy in enemy_container.get_children():
+		var pos = enemy.get_global_position()
+		if pos[1] > 435:
+			enemy.queue_free()
 	
 func find_new_active_enemy(typed_character): #finds new active enemy
 	for enemy in enemy_container.get_children():

@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/35txiñuu.wav-e999772071208c64f85bd0ca17a7a796.sample"
+path="res://.import/35txiñuu.wav-e2aedc9c4a68f4e4f91ab669bfd66c78.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Sound_1/35txiñuu.wav"
-dest_files=[ "res://.import/35txiñuu.wav-e999772071208c64f85bd0ca17a7a796.sample" ]
+source_file="res://G4_Typing/assets/vocab/Sound_1/35txiñuu.wav"
+dest_files=[ "res://.import/35txiñuu.wav-e2aedc9c4a68f4e4f91ab669bfd66c78.sample" ]
 
 [params]
 
@@ -17,7 +17,5 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop_mode=0
-edit/loop_begin=0
-edit/loop_end=-1
+edit/loop=false
 compress/mode=0

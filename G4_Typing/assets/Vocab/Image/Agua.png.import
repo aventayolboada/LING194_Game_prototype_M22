@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Agua.png-7c52266ec1d83e61670efc2521e864dd.stex"
+path="res://.import/Agua.png-b849e00cfcb12476bd9f61b1ecb3bf96.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Agua.png"
-dest_files=[ "res://.import/Agua.png-7c52266ec1d83e61670efc2521e864dd.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Agua.png"
+dest_files=[ "res://.import/Agua.png-b849e00cfcb12476bd9f61b1ecb3bf96.stex" ]
 
 [params]
 

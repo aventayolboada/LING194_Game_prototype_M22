@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cama.png-617c41e5e6c0b98411a771a4d1903059.stex"
+path="res://.import/Cama.png-7fdae9041ce8bf3f9d155a7052fa5250.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Cama.png"
-dest_files=[ "res://.import/Cama.png-617c41e5e6c0b98411a771a4d1903059.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Cama.png"
+dest_files=[ "res://.import/Cama.png-7fdae9041ce8bf3f9d155a7052fa5250.stex" ]
 
 [params]
 
