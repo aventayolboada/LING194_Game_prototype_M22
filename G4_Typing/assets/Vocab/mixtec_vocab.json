@@ -15,7 +15,7 @@
  },
  {
    "ID": 3,
-   "Mixteco": "kua_ntxiíd",
+   "Mixteco": "kuantxiíd",
    "Spanish": "sol",
    "English": "sun ",
    "Image": "Y"
@@ -106,14 +106,14 @@
  },
  {
    "ID": 20,
-   "Mixteco": "xi_kuaa",
+   "Mixteco": "xikuaa",
    "Spanish": "noche",
    "English": "night ",
    "Image": "Y"
  },
  {
    "ID": 21,
-   "Mixteco": "ya_àt",
+   "Mixteco": "yaàt",
    "Spanish": "ceniza",
    "English": "ash ",
    "Image": "N"
@@ -155,14 +155,14 @@
  },
  {
    "ID": 28,
-   "Mixteco": "yi_ìs",
+   "Mixteco": "yiìs",
    "Spanish": "piedra",
    "English": "rock ",
    "Image": "Y"
  },
  {
    "ID": 29,
-   "Mixteco": "ko_ò ",
+   "Mixteco": "koò ",
    "Spanish": "culebra, serpiente",
    "English": "snake ",
    "Image": "Y"
@@ -183,7 +183,7 @@
  },
  {
    "ID": 33,
-   "Mixteco": "ku_ñuo",
+   "Mixteco": "kuñuo",
    "Spanish": "carne",
    "English": "meat, flesh ",
    "Image": "Y"
@@ -225,14 +225,14 @@
  },
  {
    "ID": 47,
-   "Mixteco": "ki_si",
+   "Mixteco": "kisi",
    "Spanish": "olla",
    "English": "pot ",
    "Image": "Y"
  },
  {
    "ID": 50,
-   "Mixteco": "tu_ùng",
+   "Mixteco": "tuùng",
    "Spanish": "carbón",
    "English": "charcoal ",
    "Image": "Y"
@@ -246,49 +246,49 @@
  },
  {
    "ID": 53,
-   "Mixteco": "txi_ínl",
+   "Mixteco": "txiínl",
    "Spanish": "ratón",
    "English": "mouse ",
    "Image": "Y"
  },
  {
    "ID": 54,
-   "Mixteco": "txi_ntóòch",
+   "Mixteco": "txintóòch",
    "Spanish": "araña",
    "English": "spider ",
    "Image": "Y"
  },
  {
    "ID": 55,
-   "Mixteco": "ki_ìe",
+   "Mixteco": "kiìe",
    "Spanish": "día",
    "English": "day",
    "Image": "Y"
  },
  {
    "ID": 57,
-   "Mixteco": "nchishi_",
+   "Mixteco": "nchishi",
    "Spanish": "elote",
    "English": "roasting ear of corn ",
    "Image": "Y"
  },
  {
    "ID": 59,
-   "Mixteco": "txi_na",
+   "Mixteco": "txina",
    "Spanish": "perro",
    "English": "dog ",
    "Image": "Y"
  },
  {
    "ID": 61,
-   "Mixteco": "txi_su'màe",
+   "Mixteco": "txisu'màe",
    "Spanish": "alacrán",
    "English": "scorpion ",
    "Image": "Y"
  },
  {
    "ID": 67,
-   "Mixteco": "lo_nchi",
+   "Mixteco": "lonchi",
    "Spanish": "zopilote",
    "English": "vulture ",
    "Image": "Y"
@@ -302,14 +302,14 @@
  },
  {
    "ID": 71,
-   "Mixteco": "yixa_n",
+   "Mixteco": "yixan",
    "Spanish": "masa",
    "English": "corn dough ",
    "Image": "Y"
  },
  {
    "ID": 72,
-   "Mixteco": "n_ùñùdo",
+   "Mixteco": "nùñùdo",
    "Spanish": "abeja",
    "English": "bee ",
    "Image": "Y"
@@ -323,14 +323,14 @@
  },
  {
    "ID": 74,
-   "Mixteco": "txi_ka",
+   "Mixteco": "txika",
    "Spanish": "chapulín",
    "English": "grasshopper ",
    "Image": "Y"
  },
  {
    "ID": 77,
-   "Mixteco": "yi_txa",
+   "Mixteco": "yitxa",
    "Spanish": "río",
    "English": "river ",
    "Image": "Y"

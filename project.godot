@@ -39,7 +39,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Game prototype"
-run/main_scene="res://G1_Menu/HUD.tscn"
+run/main_scene="res://G1_Menu/Menu.tscn"
 config/icon="res://icon.png"
 
 [autoload]

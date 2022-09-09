@@ -1,15 +1,10 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://G4_Typing/assets/background.jpeg" type="Texture" id=1]
-[ext_resource path="res://G4_Typing/assets/Patua_One_font/PatuaOne-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://G4_Typing/GameMessages.tscn" type="PackedScene" id=2]
 [ext_resource path="res://G4_Typing/Main.gd" type="Script" id=3]
-[ext_resource path="res://G2_Background/cheese background.png" type="Texture" id=4]
-
-[sub_resource type="DynamicFont" id=1]
-size = 24
-outline_size = 4
-outline_color = Color( 0.0705882, 0.0392157, 0.0392157, 1 )
-font_data = ExtResource( 2 )
+[ext_resource path="res://G4_Typing/assets/cheese background.png" type="Texture" id=4]
+[ext_resource path="res://G5_Assessment/Typing Segment Score Screen/TypingCompleteScreen.tscn" type="PackedScene" id=5]
 
 [node name="Main" type="Node2D"]
 script = ExtResource( 3 )
@@ -24,11 +19,10 @@ expand = true
 stretch_mode = 7
 
 [node name="Background2" type="TextureRect" parent="."]
-visible = false
-margin_left = 3.0
-margin_top = 4.0
-margin_right = 722.0
-margin_bottom = 490.0
+margin_left = -4.0
+margin_top = -8.0
+margin_right = 735.0
+margin_bottom = 495.0
 texture = ExtResource( 4 )
 expand = true
 stretch_mode = 7
@@ -57,70 +51,17 @@ position = Vector2( 60, -34 )
 position = Vector2( 0, 1.52588e-05 )
 
 [node name="SpawnTimer" type="Timer" parent="."]
-wait_time = 5.0
+wait_time = 3.0
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="GameOverTimer" type="Timer" parent="."]
+pause_mode = 1
+wait_time = 60.0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 2.0
-margin_top = 1.0
-margin_right = 2.0
-margin_bottom = 1.0
+[node name="GameMessages" parent="." instance=ExtResource( 2 )]
 
-[node name="TopRow2" type="CenterContainer" parent="CanvasLayer/VBoxContainer"]
-margin_right = 720.0
-margin_bottom = 30.0
-
-[node name="TopRow" type="HBoxContainer" parent="CanvasLayer/VBoxContainer/TopRow2"]
-margin_left = 316.0
-margin_right = 403.0
-margin_bottom = 30.0
-
-[node name="EnemiesKilledLabel" type="Label" parent="CanvasLayer/VBoxContainer/TopRow2/TopRow"]
-margin_right = 69.0
-margin_bottom = 30.0
-custom_fonts/font = SubResource( 1 )
-text = "Score: "
-
-[node name="EnemiesKilledValue" type="Label" parent="CanvasLayer/VBoxContainer/TopRow2/TopRow"]
-margin_left = 73.0
-margin_right = 87.0
-margin_bottom = 30.0
-custom_fonts/font = SubResource( 1 )
-text = "0"
-
-[node name="MiddleRow" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
-margin_top = 34.0
-margin_right = 720.0
-margin_bottom = 446.0
-size_flags_vertical = 3
-
-[node name="BottomRow" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
-margin_top = 450.0
+[node name="TypingScoreControl" parent="." instance=ExtResource( 5 )]
 margin_right = 720.0
 margin_bottom = 480.0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/VBoxContainer/BottomRow"]
-margin_bottom = 30.0
-
-[node name="LevelLabel" type="Label" parent="CanvasLayer/VBoxContainer/BottomRow/HBoxContainer"]
-visible = false
-margin_right = 77.0
-margin_bottom = 38.0
-custom_fonts/font = SubResource( 1 )
-text = "Level:"
-
-[node name="LevelValue" type="Label" parent="CanvasLayer/VBoxContainer/BottomRow/HBoxContainer"]
-visible = false
-margin_right = 17.0
-margin_bottom = 38.0
-custom_fonts/font = SubResource( 1 )
-text = "0"
-
-[node name="Message" type="Label" parent="CanvasLayer/VBoxContainer/BottomRow/HBoxContainer"]
-margin_bottom = 30.0
-custom_fonts/font = SubResource( 1 )
-
 [connection signal="timeout" from="SpawnTimer" to="." method="_on_SpawnTimer_timeout"]
+[connection signal="timeout" from="GameOverTimer" to="." method="_on_GameOverTimer_timeout"]
