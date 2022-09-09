@@ -1,7 +1,5 @@
 extends CanvasLayer
 
-signal pressed
-
 func _ready():
 	pass # Replace with function body.
 

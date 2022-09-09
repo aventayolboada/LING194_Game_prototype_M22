@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Rio.png-4a3ce74e8747df61b5ab0ef68f0ae5c6.stex"
+path="res://.import/Rio.png-3d3c508c1686dce5a1142a1a82c19c9d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Image/Rio.png"
-dest_files=[ "res://.import/Rio.png-4a3ce74e8747df61b5ab0ef68f0ae5c6.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Rio.png"
+dest_files=[ "res://.import/Rio.png-3d3c508c1686dce5a1142a1a82c19c9d.stex" ]
 
 [params]
 

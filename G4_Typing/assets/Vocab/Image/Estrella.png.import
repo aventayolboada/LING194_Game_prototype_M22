@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Estrella.png-9c01d01c8176aea853c897ef2595b21b.stex"
+path="res://.import/Estrella.png-0b7cfe4a5a6b2a6e5dd10a15fdf8fe86.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Image/Estrella.png"
-dest_files=[ "res://.import/Estrella.png-9c01d01c8176aea853c897ef2595b21b.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Estrella.png"
+dest_files=[ "res://.import/Estrella.png-0b7cfe4a5a6b2a6e5dd10a15fdf8fe86.stex" ]
 
 [params]
 

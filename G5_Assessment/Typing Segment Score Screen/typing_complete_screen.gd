@@ -8,7 +8,7 @@ extends Control
 	#
 	# signal error or similar, see doc. above corresponding func here
 
-signal game_started
+signal restart_pressed
 signal assessment_started
 signal glossary_opened
 
@@ -19,15 +19,16 @@ signal glossary_opened
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$WindowScreen.show()
+	#$WindowScreen.show()
 	#$ScoreLabel.text = score_value as int
+	pass
 
 
 # Pressing RetryButton hides the window and starts the typing game again.
 func _on_RetryButton_pressed():
 	get_tree(). change_scene("res://G4_Typing/Main.tscn")
 	$WindowScreen.hide()
-	emit_signal("game_started")
+	emit_signal("restart_pressed")
 
 
 # Pressing AssessmentButton hides the window and starts the assessment.

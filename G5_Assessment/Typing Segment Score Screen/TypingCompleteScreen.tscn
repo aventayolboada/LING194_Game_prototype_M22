@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://G5_Assessment/Typing Segment Score Screen/typing_complete_screen.gd" type="Script" id=1]
 [ext_resource path="res://G5_Assessment/Typing Segment Score Screen/window_and_button_font.tres" type="DynamicFont" id=2]
@@ -9,8 +9,6 @@
 [ext_resource path="res://G5_Assessment/Typing Segment Score Screen/Glossary.gd" type="Script" id=7]
 [ext_resource path="res://G4_Typing/assets/Vocab/Sound_2/72ñuñu.wav" type="AudioStream" id=8]
 [ext_resource path="res://G5_Assessment/Assets/Resized Vocab/72Abeja.png" type="Texture" id=9]
-[ext_resource path="res://G4_Typing/assets/background.jpeg" type="Texture" id=10]
-[ext_resource path="res://G4_Typing/assets/cheese background.png" type="Texture" id=11]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -27,24 +25,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 theme = SubResource( 2 )
 script = ExtResource( 1 )
-
-[node name="Background1" type="TextureRect" parent="."]
-margin_left = -11.0
-margin_top = -14.0
-margin_right = 741.0
-margin_bottom = 516.0
-texture = ExtResource( 10 )
-expand = true
-stretch_mode = 7
-
-[node name="Background2" type="TextureRect" parent="."]
-margin_left = -4.0
-margin_top = -8.0
-margin_right = 735.0
-margin_bottom = 495.0
-texture = ExtResource( 11 )
-expand = true
-stretch_mode = 7
 
 [node name="WindowScreen" type="WindowDialog" parent="."]
 visible = true

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Zopilote.png-a02b8ca367098257e58443bccbd7d343.stex"
+path="res://.import/Zopilote.png-f35185aeacc1c2230c215748fc6564fd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Image/Zopilote.png"
-dest_files=[ "res://.import/Zopilote.png-a02b8ca367098257e58443bccbd7d343.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Zopilote.png"
+dest_files=[ "res://.import/Zopilote.png-f35185aeacc1c2230c215748fc6564fd.stex" ]
 
 [params]
 

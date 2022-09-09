@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Nube.png-0f2022bd0a45ab874eabc199941f66dc.stex"
+path="res://.import/Nube.png-afcdfaa97f29c0f109b6e12ea281bc53.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Image/Nube.png"
-dest_files=[ "res://.import/Nube.png-0f2022bd0a45ab874eabc199941f66dc.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Nube.png"
+dest_files=[ "res://.import/Nube.png-afcdfaa97f29c0f109b6e12ea281bc53.stex" ]
 
 [params]
 

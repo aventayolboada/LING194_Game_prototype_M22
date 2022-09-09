@@ -9,26 +9,25 @@ onready var spawn_timer = $SpawnTimer
 
 onready var score_value = $GameMessages/VBoxContainer/TopRow2/TopRow/EnemiesKilledValue
 onready var game_message = $GameMessages/VBoxContainer/BottomRow/HBoxContainer/Message
-onready var final_score = $GameMessages/GameOverScreen/CenterContainer/VBoxContainer2/ScoreLabel
+#onready var final_score = $GameMessages/GameOverScreen/CenterContainer/VBoxContainer2/ScoreLabel
+onready var final_score = $TypingScoreControl/WindowScreen/ScoreLabel
 # links score (enemies killed) to label display. 
 onready var game_over_screen = $GameMessages/GameOverScreen
 
 var active_enemy = null
-var current_letter_index: int = -1 
+var current_letter_index: int = -1
 
 # var difficulty. not using bcse we dont have lvls. 
 var enemies_killed: int = 0
 
 var enemies = 0
 
-signal score(enemies_killed)
-
 func _ready() -> void:
-	randomize() # built-iin godot method to change random number seed. aka make randomized numbers rly random
+	randomize() # built-in godot method to change random number seed. aka make randomized numbers rly random
 	spawn_timer.start()
 	spawn_enemy()
 	enemies = 1
-	$GameMessages.connect("restart_pressed", self, "restart_received")
+	$TypingScoreControl/WindowScreen.connect("restart_pressed", self, "restart_received")
 
 #func _process(delta): # deletes enemy instance after certain time. NOT WORKING. do not uncomment for now. 
 #	for enemy in enemy_container.get_children():
@@ -41,7 +40,7 @@ func _ready() -> void:
 #			if event is InputEventKey and event.is_pressed() and not event.is_echo():
 #				_unhandled_input(event)
 			# need to find new enemy
-	
+
 func find_new_active_enemy(typed_character): #finds new active enemy
 	for enemy in enemy_container.get_children():
 		var prompt = enemy.get_prompt()
@@ -79,7 +78,8 @@ func _unhandled_input(event: InputEvent) -> void:
 						active_enemy.queue_free()
 						active_enemy = null
 						enemies_killed += 1
-						score_value.text = str(enemies_killed) 
+						score_value.text = str(enemies_killed)
+						final_score.text = str(enemies_killed)
 				else: #error message
 					var message = "Incorrect. Correct: %s ." % [next_character]
 					game_message.text = str(message)
@@ -87,9 +87,8 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func _on_SpawnTimer_timeout(): # spawns enemy
-	if (enemies>=25) :
+	if (enemies>=24) :
 		game_over()
-		get_tree(). change_scene("res://G5_Assessment/Typing Segment Score Screen/TypingCompleteScreen.tscn")
 	else:
 		spawn_enemy()
 		enemies = enemies + 1
@@ -102,14 +101,14 @@ func spawn_enemy():
 	enemy_container.add_child(enemy_instance)
 	
 func game_over(): #clear out existing enemies, reset connections, etc
-	game_over_screen.show()
+	$TypingScoreControl/WindowScreen.show()
 	spawn_timer.stop()
 	active_enemy = null
 	current_letter_index = -1
 	
 	
 func start_game():
-	game_over_screen.hide()
+	$TypingScoreControl/WindowScreen.hide()
 	score_value = 0
 	randomize() # built-iin godot method to change random number seed. aka make randomized numbers rly random
 	spawn_timer.start()
@@ -117,7 +116,7 @@ func start_game():
 	enemies = 1
 
 	
-func restart_received(): # connects signals across GameMessage.tcsn
+func restart_received(): # connects signals across GameMessage.tcsn and TypingCompleteScreen.tscn
 	start_game()
 
 

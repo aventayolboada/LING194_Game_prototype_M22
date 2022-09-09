@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Venado.png-c37f6651b73b9eedf63404d45222ef4f.stex"
+path="res://.import/Venado.png-92a28f0e74d421cc8182dc6440cbdc30.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Image/Venado.png"
-dest_files=[ "res://.import/Venado.png-c37f6651b73b9eedf63404d45222ef4f.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Venado.png"
+dest_files=[ "res://.import/Venado.png-92a28f0e74d421cc8182dc6440cbdc30.stex" ]
 
 [params]
 

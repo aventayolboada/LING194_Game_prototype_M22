@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Abeja.png-eefeee70b5cafd3cc74823e5daebfbdd.stex"
+path="res://.import/Abeja.png-35ebdc6ee64b97cd06af5e7b535b1564.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Image/Abeja.png"
-dest_files=[ "res://.import/Abeja.png-eefeee70b5cafd3cc74823e5daebfbdd.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Abeja.png"
+dest_files=[ "res://.import/Abeja.png-35ebdc6ee64b97cd06af5e7b535b1564.stex" ]
 
 [params]
 

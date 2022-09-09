@@ -24,7 +24,6 @@ outline_color = Color( 0.0705882, 0.0392157, 0.0392157, 1 )
 font_data = ExtResource( 1 )
 
 [node name="GameMessages" type="CanvasLayer"]
-pause_mode = 2
 script = ExtResource( 3 )
 
 [node name="GameOverScreen" type="PanelContainer" parent="."]

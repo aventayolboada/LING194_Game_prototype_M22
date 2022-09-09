@@ -2,13 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/music_zapsplat_action_dark_sci_fi_serious_atmospsheric_deep_tech_014.mp3-41cb50a933750a7cde440f89fa71a90b.mp3str"
+valid=false
 
 [deps]
 
 source_file="res://G6_Audio/music_zapsplat_action_dark_sci_fi_serious_atmospsheric_deep_tech_014.mp3"
-dest_files=[ "res://.import/music_zapsplat_action_dark_sci_fi_serious_atmospsheric_deep_tech_014.mp3-41cb50a933750a7cde440f89fa71a90b.mp3str" ]
-
 [params]
 
 loop=true
