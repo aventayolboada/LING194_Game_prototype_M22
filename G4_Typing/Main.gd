@@ -113,3 +113,8 @@ func restart_received(): # connects signals across GameMessage.tcsn
 func _on_GameOverTimer_timeout():
 	game_over() # NOT WORKING
 	
+
+
+func _on_LoseArea_body_entered(body):
+	game_over()
+	get_tree(). change_scene("res://G5_Assessment/Typing Segment Score Screen/TypingCompleteScreen.tscn")

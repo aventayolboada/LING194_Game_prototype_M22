@@ -1,4 +1,4 @@
-extends Sprite
+extends KinematicBody2D
 
 #colors changing characters as player types them
 export (Color) var blue = Color("#4682b4") #previously typed character
