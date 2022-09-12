@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Fuego.png-454a67f6c0d3b6b1409b9502cc297814.stex"
+path="res://.import/Fuego.png-4e27ada2ee1b67f05da60d1d7bee1fff.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Fuego.png"
-dest_files=[ "res://.import/Fuego.png-454a67f6c0d3b6b1409b9502cc297814.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Fuego.png"
+dest_files=[ "res://.import/Fuego.png-4e27ada2ee1b67f05da60d1d7bee1fff.stex" ]
 
 [params]
 

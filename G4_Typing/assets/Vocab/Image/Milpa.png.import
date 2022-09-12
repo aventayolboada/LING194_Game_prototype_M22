@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Milpa.png-74e16c97f144ee56c14cc3069599501d.stex"
+path="res://.import/Milpa.png-0aa65f9cf551227ccefa5723316ceabd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Milpa.png"
-dest_files=[ "res://.import/Milpa.png-74e16c97f144ee56c14cc3069599501d.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Milpa.png"
+dest_files=[ "res://.import/Milpa.png-0aa65f9cf551227ccefa5723316ceabd.stex" ]
 
 [params]
 

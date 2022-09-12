@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Dia.png-14e27f056584897199bdd8222531d842.stex"
+path="res://.import/Dia.png-a869737dfc325c6d8e58288448991276.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/Vocab/Image/Dia.png"
-dest_files=[ "res://.import/Dia.png-14e27f056584897199bdd8222531d842.stex" ]
+source_file="res://G4_Typing/assets/vocab/Image/Dia.png"
+dest_files=[ "res://.import/Dia.png-a869737dfc325c6d8e58288448991276.stex" ]
 
 [params]
 
