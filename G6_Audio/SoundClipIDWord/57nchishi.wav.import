@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/57nchishi.wav-8134afad15f48e54ffca5643b221cc84.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipIDWord/57nchishi.wav"
+dest_files=[ "res://.import/57nchishi.wav-8134afad15f48e54ffca5643b221cc84.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

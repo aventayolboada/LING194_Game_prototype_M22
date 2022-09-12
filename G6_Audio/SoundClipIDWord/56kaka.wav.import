@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/56kaka.wav-71d1463133b373f1753c2f7abda3d5aa.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipIDWord/56kaka.wav"
+dest_files=[ "res://.import/56kaka.wav-71d1463133b373f1753c2f7abda3d5aa.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

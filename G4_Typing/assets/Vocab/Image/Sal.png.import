@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sal.png-32fc999b4121257824c5a4c882e2f9f0.stex"
+path="res://.import/Sal.png-883bd8468295547bdafac914ee47d659.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Image/Sal.png"
-dest_files=[ "res://.import/Sal.png-32fc999b4121257824c5a4c882e2f9f0.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Sal.png"
+dest_files=[ "res://.import/Sal.png-883bd8468295547bdafac914ee47d659.stex" ]
 
 [params]
 

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/14txaka.wav-1405fed12c87521a46a2af01425f7210.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipsIDWords/14txaka.wav"
+dest_files=[ "res://.import/14txaka.wav-1405fed12c87521a46a2af01425f7210.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/55kii.wav-daa8f6f1da7752b1b2696f5e2ab86f42.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipIDWord/55kii.wav"
+dest_files=[ "res://.import/55kii.wav-daa8f6f1da7752b1b2696f5e2ab86f42.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

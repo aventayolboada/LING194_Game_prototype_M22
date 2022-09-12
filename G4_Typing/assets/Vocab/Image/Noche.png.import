@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Noche.png-5ac209f3ca1b6fbc47b63f21188017fa.stex"
+path="res://.import/Noche.png-51152b1a714b94fa9cc95e72df1e87e9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Image/Noche.png"
-dest_files=[ "res://.import/Noche.png-5ac209f3ca1b6fbc47b63f21188017fa.stex" ]
+source_file="res://G4_Typing/assets/Vocab/Image/Noche.png"
+dest_files=[ "res://.import/Noche.png-51152b1a714b94fa9cc95e72df1e87e9.stex" ]
 
 [params]
 

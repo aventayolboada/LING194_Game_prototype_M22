@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/59txina.wav-9bd75adc75b7f88e3f7c5926f735513f.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipIDWord/59txina.wav"
+dest_files=[ "res://.import/59txina.wav-9bd75adc75b7f88e3f7c5926f735513f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

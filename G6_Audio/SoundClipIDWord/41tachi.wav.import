@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/41tachi.wav-8a1f3beb3409fa4a8e89e22a78a1fd86.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipIDWord/41tachi.wav"
+dest_files=[ "res://.import/41tachi.wav-8a1f3beb3409fa4a8e89e22a78a1fd86.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

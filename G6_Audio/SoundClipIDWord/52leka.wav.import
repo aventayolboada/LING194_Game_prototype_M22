@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/52leka.wav-548294d46601c1b19a2d4b521ad43636.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipIDWord/52leka.wav"
+dest_files=[ "res://.import/52leka.wav-548294d46601c1b19a2d4b521ad43636.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

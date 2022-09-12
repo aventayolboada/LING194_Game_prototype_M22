@@ -122,4 +122,13 @@ func restart_received(): # connects signals across GameMessage.tcsn and TypingCo
 
 func _on_GameOverTimer_timeout():
 	game_over() # NOT WORKING
+
+
+	
+
+
+
+
+func _on_LoseArea_body_entered(body:Node) -> void:
+	game_over()
 	

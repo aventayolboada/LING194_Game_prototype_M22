@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/8shita.wav-18a7b8c57d6e84b54f515240cfcc36b0.sample"
+path="res://.import/8shita.wav-978751fdf31d3ae8956d1663b7a473e6.sample"
 
 [deps]
 
-source_file="res://G4_Typing/assets/vocab/Sound_1/8shita.wav"
-dest_files=[ "res://.import/8shita.wav-18a7b8c57d6e84b54f515240cfcc36b0.sample" ]
+source_file="res://G4_Typing/assets/Vocab/Sound_1/8shita.wav"
+dest_files=[ "res://.import/8shita.wav-978751fdf31d3ae8956d1663b7a473e6.sample" ]
 
 [params]
 

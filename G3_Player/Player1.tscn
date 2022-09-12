@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Player_1.gd" type="Script" id=1]
+[ext_resource path="res://G3_Player/Player_1.gd" type="Script" id=1]
 
 [node name="Player1" type="KinematicBody2D"]
 visible = false

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/11txoko.wav-cc016f117d63d7155c55a12f35be4260.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipsIDWords/11txoko.wav"
+dest_files=[ "res://.import/11txoko.wav-cc016f117d63d7155c55a12f35be4260.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

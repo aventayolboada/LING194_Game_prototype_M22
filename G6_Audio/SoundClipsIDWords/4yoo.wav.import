@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/4yoo.wav-a5d337afe57af67643aea14e8312aafe.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipsIDWords/4yoo.wav"
+dest_files=[ "res://.import/4yoo.wav-a5d337afe57af67643aea14e8312aafe.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

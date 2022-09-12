@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/64yivi.wav-e1a7d6df4f0038171f4ad5488b6a7b36.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipIDWord/64yivi.wav"
+dest_files=[ "res://.import/64yivi.wav-e1a7d6df4f0038171f4ad5488b6a7b36.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

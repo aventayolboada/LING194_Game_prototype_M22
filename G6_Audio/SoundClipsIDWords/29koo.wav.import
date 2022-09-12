@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/29koo.wav-05dcb313b3b3df7ca29d21c54ccb83ee.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipsIDWords/29koo.wav"
+dest_files=[ "res://.import/29koo.wav-05dcb313b3b3df7ca29d21c54ccb83ee.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

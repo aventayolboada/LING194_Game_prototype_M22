@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/50tuun.wav-7a40bfd3a0952f1e07699cc24b1b0ab7.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipIDWord/50tuun.wav"
+dest_files=[ "res://.import/50tuun.wav-7a40bfd3a0952f1e07699cc24b1b0ab7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

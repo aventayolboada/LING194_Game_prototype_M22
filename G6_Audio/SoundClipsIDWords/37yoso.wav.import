@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/37yoso.wav-9ea3c0a1573ebe0c2ee7e57b6e062e8e.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipsIDWords/37yoso.wav"
+dest_files=[ "res://.import/37yoso.wav-9ea3c0a1573ebe0c2ee7e57b6e062e8e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/2iti.wav-91e5c0365f8d7b7124cd1c7e8697274a.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipsIDWords/2iti.wav"
+dest_files=[ "res://.import/2iti.wav-91e5c0365f8d7b7124cd1c7e8697274a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

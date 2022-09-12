@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/31txinana.wav-529100b8655046f148507e273f1f97ee.sample"
+
+[deps]
+
+source_file="res://G6_Audio/SoundClipsIDWords/31txinana.wav"
+dest_files=[ "res://.import/31txinana.wav-529100b8655046f148507e273f1f97ee.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
