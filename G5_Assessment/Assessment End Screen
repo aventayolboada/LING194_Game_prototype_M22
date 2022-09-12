@@ -1,0 +1,23 @@
+# Gathers input from the player's performance (points) and displays the score
+func _ready():
+	extends Label
+	var score  0
+	
+# Generates a response to overall score
+run correct_answer
+if % <= 50%
+	print "Nice Try!"
+if % > 50%
+		print "Great Job!"
+
+func correct_answer():
+	score += 1
+	text = "Score: %s" % score
+		print "%"
+	return score 
+
+# return to main menu/retry button
+func _unhandled_input(event):
+	if event.is_action_pressed("ui_accept") and $UserInterface/Retry.visible:
+		# This restarts the current scene.
+		get_tree().reload_current_scene()
